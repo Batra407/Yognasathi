@@ -45,6 +45,13 @@ scratch/
 # vercel
 .vercel
 
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -8,6 +8,7 @@ const assistantRoute = require('../../src/app/api/schemes/assistant/route.js');
 function createMockRequest(url, body = null) {
   return {
     url,
+    headers: new Headers({ 'x-forwarded-for': '127.0.0.1' }),
     json: async () => body
   };
 }
