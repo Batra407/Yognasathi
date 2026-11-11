@@ -7,7 +7,7 @@ const ipRequestMap = new Map();
 
 // Periodic cleanup every 5 minutes to prevent memory leaks
 if (typeof setInterval !== "undefined") {
-  setInterval(() => {
+  const timer = setInterval(() => {
     const now = Date.now();
     for (const [key, record] of ipRequestMap.entries()) {
       if (now > record.resetTime) {
@@ -15,6 +15,9 @@ if (typeof setInterval !== "undefined") {
       }
     }
   }, 5 * 60 * 1000);
+  if (timer && typeof timer.unref === "function") {
+    timer.unref();
+  }
 }
 
 /**
@@ -24,7 +27,7 @@ if (typeof setInterval !== "undefined") {
  * @param {number} windowMs - Window duration in milliseconds (default: 60,000ms = 1 min)
  * @returns {{ success: boolean, remaining: number, resetTime: number }}
  */
-export function rateLimit(identifier, limit = 60, windowMs = 60 * 1000) {
+function rateLimit(identifier, limit = 60, windowMs = 60 * 1000) {
   const now = Date.now();
   const clientRecord = ipRequestMap.get(identifier);
 
@@ -61,7 +64,10 @@ export function rateLimit(identifier, limit = 60, windowMs = 60 * 1000) {
  * @param {Request} request 
  * @returns {string}
  */
-export function getClientIp(request) {
+function getClientIp(request) {
+  if (!request || !request.headers || typeof request.headers.get !== "function") {
+    return "127.0.0.1";
+  }
   const forwarded = request.headers.get("x-forwarded-for");
   if (forwarded) {
     return forwarded.split(",")[0].trim();
@@ -73,3 +79,7 @@ export function getClientIp(request) {
   return "127.0.0.1";
 }
 
+module.exports = {
+  rateLimit,
+  getClientIp
+};

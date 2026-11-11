@@ -9,6 +9,7 @@ const path = require('path');
 const scripts = [
   'data/scripts/import_government_data.js',
   'data/scripts/import_punjab_schemes.js',
+  'data/scripts/add_punjab_to_schemes.js',
   'data/scripts/add_haryana_to_schemes.js',
   'data/scripts/classify_records.js',
   'data/scripts/seed_eligibility_rules.js'
@@ -28,3 +29,4 @@ for (const script of scripts) {
 }
 
 console.log('\n✅ Database seed sequence completed successfully.');
+
