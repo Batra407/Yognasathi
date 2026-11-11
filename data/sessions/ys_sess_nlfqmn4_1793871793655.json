@@ -1,0 +1,25 @@
+{
+  "sessionId": "ys_sess_nlfqmn4_1793871793655",
+  "profile": {
+    "occupation": "student",
+    "annualIncome": 200000
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a student with annual income 2 lakh looking for scholarship",
+      "timestamp": "2026-11-05T09:43:16.394Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your profile (student), here are relevant verified government schemes:\n1. **Dr. B.R. Ambedkar Medhavi Chhatravriti Yojana - Haryana** — ⚠ Verification Required (Welfare of Scheduled Castes and Backward Classes Department)\n   🔗 https://saralharyana.gov.in/\n2. **Post Matric Scholarship for SC Students - Haryana** — ⚠ Verification Required (Higher Education Department)\n   🔗 https://harchhatravritti.highereduhry.ac.in/\n3. **Chirayu Haryana (Ayushman Bharat MMPSY)** — ⚠ Verification Required (Health Department)\n   🔗 https://chirayu.haryana.gov.in/\n\n📋 Please verify all requirements on the official government portal before applying.",
+      "timestamp": "2026-11-05T09:43:16.549Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793871796549,
+  "ttlMinutes": 1440
+}

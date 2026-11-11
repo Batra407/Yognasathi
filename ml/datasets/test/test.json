@@ -1,0 +1,567 @@
+[
+  {
+    "text": "मेरी उम्र 48 साल है। बेरोजगार युवाओं के लिए आयोजित रोजगार मेलों और भर्ती की जानकारी दीजिए।",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "hi"
+  },
+  {
+    "text": "Main Delhi se hoon. Women Self Help Group SHG loan par interest subsidy scheme kya hai?",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "गंभीर बीमारियों के 5 लाख तक के मुफ्त इलाज के लिए सरकारी स्वास्थ्य बीमा योजना।",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं पंजाब का निवासी हूँ। सूक्ष्म और लघु उद्योगों के लिए बिना कोलेटरल गारंटी ऋण योजना की जानकारी।",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "I am a college student looking for pre-matric and post-matric scholarships.",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "I live in Bihar and sukanya samriddhi yojana for high interest savings and girl child education.",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੈਂ ਹਰਿਆਣਾ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਯੂਨੀਵਰਸਿਟੀ ਦੀ ਫੀਸ ਭਰਨ ਲਈ ਸਰਕਾਰੀ ਆਰਥਿਕ ਸਹਾਇਤਾ ਕਿਵੇਂ ਮਿਲੇਗੀ?",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "My age is 55 years. I am a farmer looking for tractor and agricultural machinery subsidy.",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 22 ਸਾਲ ਹੈ। ਸਬਜ਼ੀਆਂ ਦੀ ਕਾਸ਼ਤ ਅਤੇ ਪੌਲੀਹਾਊਸ ਲਈ ਕਿਸਾਨਾਂ ਨੂੰ ਕੀ ਮਦਦ ਮਿਲਦੀ ਹੈ?",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना के लिए पात्रता और ऑनलाइन आवेदन।",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "ਧੀਆਂ ਦੇ ਚੰਗੇ ਭਵਿੱਖ ਲਈ ਸੁਕੰਨਿਆ ਸਮ੍ਰਿਧੀ ਯੋਜਨਾ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿਓ।",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "मैं दिल्ली का निवासी हूँ। प्रधानमंत्री कौशल विकास योजना (PMKVY) के तहत मुफ्त तकनीकी प्रशिक्षण और प्रमाण पत्र।",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं दिल्ली का निवासी हूँ। बेरोजगार युवाओं के लिए आयोजित रोजगार मेलों और भर्ती की जानकारी दीजिए।",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "hi"
+  },
+  {
+    "text": "My age is 52 years. Public grievance redressal and citizen service charter assistance.",
+    "label": "GENERAL_WELFARE",
+    "lang": "en"
+  },
+  {
+    "text": "मेरी उम्र 49 साल है। प्रधानमंत्री जन धन योजना के तहत जीरो बैलेंस खाता और 10,000 की ओवरड्राफ्ट सुविधा।",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "Divyang student scholarship scheme higher studies ke liye bataiye.",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "My age is 64 years. Government subsidy scheme for tube-well boring and electrical connection in agriculture.",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Need assistance with stubble management machinery and crop residue equipment.",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੈਂ ਦਿੱਲੀ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਪਿੰਡ ਵਿੱਚ ਆਪਣਾ ਘਰ ਬਣਾਉਣ ਲਈ ਸਰਕਾਰ ਕਿੰਨੇ ਪੈਸੇ ਦਿੰਦੀ ਹੈ?",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "Old age pension monthly account me aane ke liye portal status check karna hai.",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "I live in Haryana and unemployment allowance scheme for educated youth in state employment exchanges.",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "en"
+  },
+  {
+    "text": "New smart ration card apply karne ka process aur family member add karna.",
+    "label": "GENERAL_WELFARE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "मैं हरियाणा का निवासी हूँ। मैं कॉलेज का छात्र हूँ और मुझे उच्च शिक्षा के लिए छात्रवृत्ति की जानकारी चाहिए।",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 59 ਸਾਲ ਹੈ। ਅਟਲ ਪੈਨਸ਼ਨ ਯੋਜਨਾ ਵਿੱਚ ਖਾਤਾ ਖੁਲ੍ਹਵਾਉਣ ਦੇ ਲਾਭ ਕੀ ਹਨ?",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "Main Delhi se hoon. Electrician mobile repairing aur solar technician vocational training institute.",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 27 ਸਾਲ ਹੈ। ਸਰਕਾਰੀ ਸਕੀਮਾਂ ਵਿੱਚ ਦਿੱਕਤ ਆਉਣ 'ਤੇ ਪੰਜਾਬ ਸ਼ਿਕਾਇਤ ਨਿਵਾਰਨ ਪੋਰਟਲ 'ਤੇ ਸ਼ਿਕਾਇਤ ਕਿਵੇਂ ਕਰੀਏ?",
+    "label": "GENERAL_WELFARE",
+    "lang": "pa"
+  },
+  {
+    "text": "मेरी उम्र 56 साल है। किराना दुकान, आटा चक्की या डेयरी फार्म खोलने के लिए सरकारी अनुदान और बैंक लोन।",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "My age is 52 years. Procedure for obtaining Income, Domicile, and Caste certificates on official portal.",
+    "label": "GENERAL_WELFARE",
+    "lang": "en"
+  },
+  {
+    "text": "गरीब और असहाय परिवारों की बेटियों के विवाह के लिए सरकारी अनुदान योजना।",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं हरियाणा का निवासी हूँ। 40% या अधिक दिव्यांगता वाले व्यक्तियों के लिए मासिक दिव्यांग पेंशन योजना।",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 41 ਸਾਲ ਹੈ। ਪਰਿਵਾਰ ਦੇ ਮੁੱਖੀ ਦੀ ਮੌਤ 'ਤੇ ਰਾਸ਼ਟਰੀ ਪਰਿਵਾਰਕ ਲਾਭ ਸਕੀਮ ਅਧੀਨ ਵਿੱਤੀ ਮਦਦ।",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "मैं दिल्ली का निवासी हूँ। विदेश में पढ़ाई करने के लिए राष्ट्रीय विदेशी छात्रवृत्ति योजना का फॉर्म कैसे भरें?",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "Skill certification and toolkit grant for traditional artisans under PM Vishwakarma Scheme.",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Main Maharashtra se hoon. Jan dhan account overdraft facility 10000 rupees activate karne ka tarika.",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 28 ਸਾਲ ਹੈ। ਵਿਦੇਸ਼ ਪੜ੍ਹਨ ਜਾਣ ਲਈ ਨੈਸ਼ਨਲ ਓਵਰਸੀਜ਼ ਸਕਾਲਰਸ਼ਿਪ ਦਾ ਫਾਰਮ ਕਿਵੇਂ ਭਰੀਏ?",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "Main Gujarat se hoon. NREGA job card application form kahan jama hota hai?",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Motorized tricycle aur hearing aid free lene ke liye ADIP scheme ka form.",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Main Haryana se hoon. Government public services aur citizen grievance register karne ka helpline number.",
+    "label": "GENERAL_WELFARE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "ਉੱਜਵਲਾ ਯੋਜਨਾ ਤਹਿਤ ਮੁਫ਼ਤ ਗੈਸ ਕੁਨੈਕਸ਼ਨ ਅਤੇ ਚੁੱਲ੍ਹਾ ਲੈਣ ਦੀ ਅਰਜ਼ੀ।",
+    "label": "GENERAL_WELFARE",
+    "lang": "pa"
+  },
+  {
+    "text": "Gehun ki fasal kharab ho gayi hai, fasal bima claim kaise karein?",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "My age is 28 years. Free technical skill training and certificate under Pradhan Mantri Kaushal Vikas Yojana (PMKVY).",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "en"
+  },
+  {
+    "text": "मैं उत्तर प्रदेश का निवासी हूँ। विश्वविद्यालय की सेमेस्टर फीस भरने के लिए आर्थिक सहायता की योजना बताइए।",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "प्रधानमंत्री उज्ज्वला योजना के तहत मुफ्त एलपीजी गैस सिलेंडर कनेक्शन कैसे लें?",
+    "label": "GENERAL_WELFARE",
+    "lang": "hi"
+  },
+  {
+    "text": "My age is 35 years. Are there subsidies available for setting up polyhouses and green houses?",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 25 ਸਾਲ ਹੈ। ਬਜ਼ੁਰਗਾਂ ਲਈ ਸਮਾਜਿਕ ਸੁਰੱਖਿਆ ਪੈਨਸ਼ਨ ਸ਼ੁਰੂ ਕਰਵਾਉਣ ਦੇ ਨਿਯਮ ਦੱਸੋ।",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "I live in Punjab and pmegp scheme subsidy up to 35% for setting up new manufacturing or service units.",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Main Bihar se hoon. UDID handicap certificate card online register kaise karte hain?",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "मैं बिहार का निवासी हूँ। पराली प्रबंधन और हैप्पी सीडर मशीन खरीदने के लिए सरकारी सहायता चाहिए।",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं बिहार का निवासी हूँ। ग्रामीण महिलाओं के लिए मुफ्त सिलाई मशीन योजना का फॉर्म कैसे भरें?",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "मेरी उम्र 27 साल है। प्रधानमंत्री कौशल विकास योजना (PMKVY) के तहत मुफ्त तकनीकी प्रशिक्षण और प्रमाण पत्र।",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं पंजाब का निवासी हूँ। असंगठित क्षेत्र के कामगारों के लिए अटल पेंशन योजना में 1000 से 5000 रुपये तक की गारंटीड पेंशन।",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "PM Vishwakarma yojana me artisan toolkit aur 15000 grant kaise milta hai?",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Maternal health checkup and free delivery services at government hospitals.",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 45 ਸਾਲ ਹੈ। ਪੰਜਾਬ ਵਿੱਚ 5 ਲੱਖ ਤੱਕ ਦੇ ਮੁਫ਼ਤ ਸਰਕਾਰੀ ਇਲਾਜ ਲਈ ਕਿਹੜੀ ਸਕੀਮ ਹੈ?",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਐਸ.ਸੀ. ਅਤੇ ਓ.ਬੀ.ਸੀ. ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਪੋਸਟ-ਮੈਟ੍ਰਿਕ ਸਕਾਲਰਸ਼ਿਪ ਸਕੀਮ।",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "मैं राजस्थान का निवासी हूँ। विश्वविद्यालय स्नातक छात्रों के लिए केंद्रीय क्षेत्र छात्रवृत्ति योजना।",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "प्रतियोगी परीक्षाओं जैसे यूपीएससी और एसएससी की तैयारी के लिए मुफ्त कोचिंग योजना।",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "I live in Haryana and i am a farmer looking for tractor and agricultural machinery subsidy.",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "I live in Rajasthan and government financial aid for purchasing laptops and textbooks for college students.",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Is there a fellowship program for research scholars and PhD students in India?",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "मेरी उम्र 27 साल है। बीपीएल और आर्थिक रूप से कमजोर परिवारों के लिए डायरेक्ट बेनिफिट ट्रांसफर (DBT) सहायता।",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "I live in Maharashtra and i am a college student looking for pre-matric and post-matric scholarships.",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "मैं उत्तर प्रदेश का निवासी हूँ। प्रतियोगी परीक्षाओं जैसे यूपीएससी और एसएससी की तैयारी के लिए मुफ्त कोचिंग योजना।",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "मेरी उम्र 44 साल है। नया उद्योग या सर्विस सेंटर शुरू करने के लिए PMEGP योजना में 35% तक सब्सिडी।",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "दिव्यांगजनों को स्वरोजगार और दुकान खोलने के लिए रियायती ब्याज दर पर ऋण।",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं राजस्थान का निवासी हूँ। गंभीर बीमारियों के 5 लाख तक के मुफ्त इलाज के लिए सरकारी स्वास्थ्य बीमा योजना।",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं पंजाब का निवासी हूँ। कैंसर और हृदय रोग के महंगे इलाज के लिए प्रधानमंत्री राहत कोष से सहायता कैसे मिलेगी?",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "Government skill development support and free vocational training for job seekers.",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "en"
+  },
+  {
+    "text": "प्रधानमंत्री मुद्रा योजना (Mudra Loan) के तहत बिना गारंटी 10 लाख तक का लोन कैसे लें?",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "BTech student hoon, SC category ke liye post matric scholarship portal bataiye.",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "मेरी उम्र 41 साल है। निराश्रित और विधवा महिलाओं के लिए मासिक विधवा पेंशन योजना की जानकारी।",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "My age is 54 years. How do I register on the National Career Service (NCS) portal for government jobs?",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "en"
+  },
+  {
+    "text": "Tractor aur rotavator khareedne ke liye sarkari scheme batao.",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 47 ਸਾਲ ਹੈ। ਜਨ ਔਸ਼ਧੀ ਕੇਂਦਰਾਂ ਤੋਂ ਸਸਤੀਆਂ ਦਵਾਈਆਂ ਕਿਵੇਂ ਪ੍ਰਾਪਤ ਕਰੀਏ?",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੈਂ ਇੱਕ ਕਿਸਾਨ ਹਾਂ ਅਤੇ ਮੈਨੂੰ ਟਰੈਕਟਰ ਅਤੇ ਖੇਤੀਬਾੜੀ ਮਸ਼ੀਨਰੀ ਤੇ ਸਬਸਿਡੀ ਚਾਹੀਦੀ ਹੈ।",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "My age is 60 years. Need assistance with stubble management machinery and crop residue equipment.",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 50 ਸਾਲ ਹੈ। ਕੱਚੇ ਮਕਾਨ ਨੂੰ ਪੱਕਾ ਕਰਨ ਲਈ ਪੰਜਾਬ ਸਰਕਾਰ ਦੀ ਯੋਜਨਾ ਬਾਰੇ ਦੱਸੋ।",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "Apna small business ya dairy farming shuru karne ke liye central subsidy scheme.",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Beti ki shadi ke liye government shagun yojana ka form chahiye.",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "ਮੈਂ ਦਿੱਲੀ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਕੈਂਸਰ ਅਤੇ ਦਿਲ ਦੀ ਬਿਮਾਰੀ ਦੇ ਇਲਾਜ ਲਈ ਮੁੱਖ ਮੰਤਰੀ ਰਾਹਤ ਫੰਡ ਤੋਂ ਸਹਾਇਤਾ।",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "My age is 23 years. Stand-Up India loan scheme for SC, ST and women entrepreneurs starting greenfield ventures.",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 61 ਸਾਲ ਹੈ। ਮੇਰੇ ਕੋਲ 3 ਏਕੜ ਜ਼ਮੀਨ ਹੈ, ਕਿਸਾਨ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਰਾਹੀਂ ਕਰਜ਼ਾ ਕਿਵੇਂ ਲਈਏ?",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "My age is 43 years. Monthly disability pension for persons with 40% or more physical handicap.",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੈਂ ਪੰਜਾਬ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਗਰੀਬ ਲੜਕੀਆਂ ਦੇ ਵਿਆਹ ਲਈ ਪੰਜਾਬ ਸਰਕਾਰ ਦੀ ਸ਼ਗਨ/ਅਸ਼ੀਰਵਾਦ ਸਕੀਮ।",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "कच्चे मकान की मरम्मत और पुनर्निर्माण के लिए सरकारी अनुदान।",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "मेरी उम्र 40 साल है। दिव्यांगजनों को स्वरोजगार और दुकान खोलने के लिए रियायती ब्याज दर पर ऋण।",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 22 ਸਾਲ ਹੈ। ਮਹਿਲਾ ਸਵੈ-ਸਹਾਇਤਾ ਗਰੁੱਪਾਂ (SHG) ਲਈ ਸਰਕਾਰੀ ਕਰਜ਼ਾ ਸਕੀਮ।",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 57 ਸਾਲ ਹੈ। ਝੋਨੇ ਅਤੇ ਕਣਕ ਲਈ ਖਾਦ ਅਤੇ ਬੀਜਾਂ 'ਤੇ ਸਰਕਾਰੀ ਰਿਆਇਤ ਕਿਵੇਂ ਮਿਲਦੀ ਹੈ?",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੈਂ ਹਰਿਆਣਾ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਨੌਜਵਾਨਾਂ ਲਈ ਮੁਫ਼ਤ ਕੰਪਿਊਟਰ ਸਿੱਖਿਆ ਅਤੇ ਟੈਕਨੀਕਲ ਟਰੇਨਿੰਗ ਸੈਂਟਰ।",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "Main Bihar se hoon. Old age pension monthly account me aane ke liye portal status check karna hai.",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Financial grant for constructing a pakka house in rural and urban areas.",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "I live in Gujarat and scholarships and reservation benefits for students with disabilities in colleges.",
+    "label": "DISABILITY_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "I live in Rajasthan and financial aid for expensive cancer treatment and heart surgery under pm relief fund.",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਵਿੱਚ 5 ਲੱਖ ਤੱਕ ਦੇ ਮੁਫ਼ਤ ਸਰਕਾਰੀ ਇਲਾਜ ਲਈ ਕਿਹੜੀ ਸਕੀਮ ਹੈ?",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "मेरी उम्र 41 साल है। सोलर पैनल इंस्टॉलेशन, मोबाइल रिपेयरिंग और इलेक्ट्रीशियन का मुफ्त वोकेशनल कोर्स।",
+    "label": "SKILL_DEVELOPMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं बिहार का निवासी हूँ। आर्थिक रूप से कमजोर वर्ग (EWS) के लिए होम लोन ब्याज सब्सिडी योजना।",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੈਂ ਦਿੱਲੀ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਕੱਚੇ ਮਕਾਨ ਨੂੰ ਪੱਕਾ ਕਰਨ ਲਈ ਪੰਜਾਬ ਸਰਕਾਰ ਦੀ ਯੋਜਨਾ ਬਾਰੇ ਦੱਸੋ।",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "मेरी उम्र 53 साल है। सूक्ष्म और लघु उद्योगों के लिए बिना कोलेटरल गारंटी ऋण योजना की जानकारी।",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 54 ਸਾਲ ਹੈ। ਵਿਧਵਾ ਪੈਨਸ਼ਨ ਸਕੀਮ ਤਹਿਤ ਹਰ ਮਹੀਨੇ ਕਿੰਨੀ ਰਕਮ ਮਿਲਦੀ ਹੈ?",
+    "label": "PENSION_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਛੋਟੇ ਕਿਸਾਨਾਂ ਲਈ ਪੰਜਾਬ ਵਿੱਚ ਖੇਤੀ ਸੰਦਾਂ ਦੀ ਸਬਸਿਡੀ ਕਦੋਂ ਮਿਲੇਗੀ?",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "Housing loan interest subsidy scheme for Economically Weaker Sections (EWS).",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Are there government plots or affordable housing flats for low income families?",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 50 ਸਾਲ ਹੈ। ਗਰੀਬ ਪਰਿਵਾਰਾਂ ਲਈ ਸਸਤੇ ਮਕਾਨ ਅਤੇ ਸਰਕਾਰੀ ਪਲਾਟ ਅਲਾਟਮੈਂਟ ਸਕੀਮ।",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੇਰੀ ਉਮਰ 55 ਸਾਲ ਹੈ। ਨਵਾਂ ਰਾਸ਼ਨ ਕਾਰਡ ਬਣਵਾਉਣ ਅਤੇ ਪਰਿਵਾਰਕ ਮੈਂਬਰਾਂ ਦੇ ਨਾਮ ਦਰਜ ਕਰਵਾਉਣ ਦਾ ਤਰੀਕਾ।",
+    "label": "GENERAL_WELFARE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੈਂ ਹਰਿਆਣਾ ਦਾ ਵਸਨੀਕ ਹਾਂ। ਖੇਤ ਵਿੱਚ ਨਵਾਂ ਟਿਊਬਵੈੱਲ ਲਗਾਉਣ ਲਈ ਖੇਤੀਬਾੜੀ ਵਿਭਾਗ ਦੀ ਸਕੀਮ ਦੱਸੋ।",
+    "label": "AGRICULTURE_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "मैं उत्तर प्रदेश का निवासी हूँ। सरकारी नौकरियों और रोजगार के लिए नेशनल करियर सर्विस (NCS) पोर्टल पर रजिस्ट्रेशन कैसे करें?",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "hi"
+  },
+  {
+    "text": "ਪਰਿਵਾਰ ਦੇ ਮੁੱਖੀ ਦੀ ਮੌਤ 'ਤੇ ਰਾਸ਼ਟਰੀ ਪਰਿਵਾਰਕ ਲਾਭ ਸਕੀਮ ਅਧੀਨ ਵਿੱਤੀ ਮਦਦ।",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਗਰੀਬ ਪਰਿਵਾਰਾਂ ਲਈ ਸਰਕਾਰੀ ਸਿੱਧੀ ਨਕਦ ਸਹਾਇਤਾ (DBT) ਕਿਵੇਂ ਮਿਲਦੀ ਹੈ?",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "I live in Maharashtra and assistance for purchasing affordable medicines through pradhan mantri jan aushadhi kendra.",
+    "label": "HEALTHCARE_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Stand-Up India loan scheme for SC, ST and women entrepreneurs starting greenfield ventures.",
+    "label": "BUSINESS_ENTREPRENEURSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "My age is 47 years. Direct Benefit Transfer (DBT) cash assistance for BPL and economically weaker families.",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Unemployment allowance scheme for educated youth in state employment exchanges.",
+    "label": "EMPLOYMENT_OPPORTUNITIES",
+    "lang": "en"
+  },
+  {
+    "text": "परिवार के मुख्य कमाऊ सदस्य की मृत्यु होने पर राष्ट्रीय पारिवारिक लाभ योजना के तहत 30,000 की सहायता।",
+    "label": "FINANCIAL_ASSISTANCE",
+    "lang": "hi"
+  }
+]

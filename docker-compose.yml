@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  # ============================================================================
+  # YojanaSathi Next.js Web Application
+  # ============================================================================
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yojanasathi-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://yojana_admin:SecureProductionPassword123!@db:5432/gov_schemes_db?schema=public
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  # ============================================================================
+  # PostgreSQL Database Service
+  # ============================================================================
+  db:
+    image: postgres:16-alpine
+    container_name: yojanasathi-db
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: yojana_admin
+      POSTGRES_PASSWORD: SecureProductionPassword123!
+      POSTGRES_DB: gov_schemes_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U yojana_admin -d gov_schemes_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+    driver: local
+

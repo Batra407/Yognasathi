@@ -1,0 +1,86 @@
+name: YojanaSathi CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  verify-and-build:
+    name: Test & Build Production
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgrespassword
+          POSTGRES_DB: gov_schemes_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scikit-learn joblib fastapi pydantic uvicorn
+
+      - name: Install Node Dependencies
+        run: npm ci
+
+      - name: Generate Prisma Client
+        run: npx prisma generate
+
+      - name: Push Database Schema & Seed
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/gov_schemes_db?schema=public"
+        run: |
+          npx prisma db push --skip-generate
+          node prisma/seed.js
+
+      - name: Run Unit Tests
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/gov_schemes_db?schema=public"
+        run: npm run test:unit
+
+      - name: Run Backend Integration Tests
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/gov_schemes_db?schema=public"
+        run: npm run test:integration
+
+      - name: Run Regression Suite
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/gov_schemes_db?schema=public"
+        run: npm run test:regression
+
+      - name: Run ML Realistic Queries Test
+        run: python tests/test_ml_realistic_queries.py
+
+      - name: Verify Production Next.js Build
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/gov_schemes_db?schema=public"
+          NEXT_TELEMETRY_DISABLED: 1
+        run: npm run build
+

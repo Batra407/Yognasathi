@@ -1,0 +1,69 @@
+{
+  "sessionId": "test_sess_G_1793866919556",
+  "profile": {
+    "occupation": "farmer",
+    "state": "Punjab",
+    "landHolding": 3,
+    "cropType": "Wheat",
+    "crops": [
+      "Wheat"
+    ]
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a farmer.",
+      "timestamp": "2026-11-05T08:21:59.556Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Which state do you belong to? (e.g. Punjab or Haryana)",
+      "timestamp": "2026-11-05T08:21:59.592Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "content": "Punjab.",
+      "timestamp": "2026-11-05T08:21:59.593Z",
+      "language": "unknown",
+      "intent": "UNKNOWN"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you own agricultural land? How many acres of land do you have?",
+      "timestamp": "2026-11-05T08:21:59.604Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "content": "Yes, 3 acres.",
+      "timestamp": "2026-11-05T08:21:59.605Z",
+      "language": "unknown",
+      "intent": "FIND_SCHEMES"
+    },
+    {
+      "role": "assistant",
+      "content": "Which crops do you grow on your land? (e.g. wheat, paddy, cotton, mustard)",
+      "timestamp": "2026-11-05T08:21:59.615Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "content": "Mainly wheat.",
+      "timestamp": "2026-11-05T08:21:59.616Z",
+      "language": "unknown",
+      "intent": "FIND_SCHEMES"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your profile (farmer, Punjab, 3 acres, Crops: Wheat), here are relevant verified government schemes:\n1. **Ayushman Bharat Mukh Mantri Sehat Bima Yojana (AB-MMSBY)** — ✓ Eligible (Department of Health and Family Welfare)\n   🔗 https://sha.punjab.gov.in/\n2. **Bed & Breakfast / Homestay Scheme - Punjab** — ✓ Eligible (Department of Tourism & Cultural Affairs)\n   🔗 https://punjabtourism.punjab.gov.in/\n3. **Disabled Person Pension Scheme - Punjab** — ✓ Eligible (Department of Social Security and Development of Women and Children)\n   🔗 https://eservices.punjab.gov.in/\n\n📋 Please verify all requirements on the official government portal before applying.",
+      "timestamp": "2026-11-05T08:21:59.624Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793866919625,
+  "ttlMinutes": 1440
+}

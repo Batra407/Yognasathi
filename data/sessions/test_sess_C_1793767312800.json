@@ -1,0 +1,18 @@
+{
+  "sessionId": "test_sess_C_1793767312800",
+  "profile": {
+    "occupation": "farmer"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am 45 years old",
+      "timestamp": "2026-11-04T04:41:52.979Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793767312979,
+  "ttlMinutes": 1440
+}

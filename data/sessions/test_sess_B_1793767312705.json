@@ -1,0 +1,16 @@
+{
+  "sessionId": "test_sess_B_1793767312705",
+  "profile": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a farmer from Haryana and own 3 acres.",
+      "timestamp": "2026-11-04T04:41:52.895Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793767312895,
+  "ttlMinutes": 1440
+}

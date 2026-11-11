@@ -1,0 +1,50 @@
+{
+  "sessionId": "test_sess_G_1793767313348",
+  "profile": {
+    "crops": [
+      "Wheat"
+    ],
+    "cropType": "Wheat",
+    "occupation": "farmer",
+    "landHolding": 3
+  },
+  "messages": [
+    {
+      "role": "user",
+      "intent": "PROVIDE_PROFILE",
+      "content": "I am a farmer.",
+      "language": "en",
+      "timestamp": "2026-11-04T04:41:53.365Z"
+    },
+    {
+      "role": "user",
+      "intent": "UNKNOWN",
+      "content": "Punjab.",
+      "language": "unknown",
+      "timestamp": "2026-11-04T04:41:53.406Z"
+    },
+    {
+      "role": "user",
+      "intent": "FIND_SCHEMES",
+      "content": "Yes, 3 acres.",
+      "language": "unknown",
+      "timestamp": "2026-11-04T04:41:53.428Z"
+    },
+    {
+      "role": "user",
+      "intent": "FIND_SCHEMES",
+      "content": "Mainly wheat.",
+      "language": "unknown",
+      "timestamp": "2026-11-04T04:41:53.483Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your profile (farmer, Punjab, 3 acres, Crops: Wheat), here are relevant verified government schemes:\n1. **Ayushman Bharat Mukh Mantri Sehat Bima Yojana (AB-MMSBY)** — ✓ Eligible (Department of Health and Family Welfare)\n   🔗 https://sha.punjab.gov.in/\n2. **Bed & Breakfast / Homestay Scheme - Punjab** — ✓ Eligible (Department of Tourism & Cultural Affairs)\n   🔗 https://punjabtourism.punjab.gov.in/\n3. **Disabled Person Pension Scheme - Punjab** — ✓ Eligible (Department of Social Security and Development of Women and Children)\n   🔗 https://eservices.punjab.gov.in/\n\n📋 Please verify all requirements on the official government portal before applying.",
+      "timestamp": "2026-11-04T04:41:53.510Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793767313510,
+  "ttlMinutes": 1440
+}

@@ -1,0 +1,238 @@
+// Prisma Schema for Multilingual Government Scheme Voice Assistant
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================================
+// DATASET A — Union Budget Expenditure Profile Schemes (637 Records)
+// ============================================================================
+
+model Department {
+  id        String   @id @default(uuid())
+  name      String   @unique
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  schemes Scheme[]
+
+  @@map("departments")
+}
+
+model Category {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?  @db.Text
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  schemes Scheme[]
+
+  @@map("categories")
+}
+
+// ============================================================================
+// RECORD TYPE ENUM — separates citizen welfare schemes from budget entries
+// ============================================================================
+
+/// CITIZEN_WELFARE_SCHEME: A genuine scheme citizens can apply for.
+/// BUDGET_ACCOUNTING_ENTRY: A fiscal/bookkeeping line from the Union Budget.
+/// PENDING_CLASSIFICATION: Not yet classified; excluded from citizen listings.
+enum SchemeRecordType {
+  CITIZEN_WELFARE_SCHEME
+  BUDGET_ACCOUNTING_ENTRY
+  PENDING_CLASSIFICATION
+
+  @@map("scheme_record_type")
+}
+
+model Scheme {
+  id           String           @id @default(uuid())
+  schemeNo     Float            @map("scheme_no")
+  schemeName   String           @map("scheme_name")
+  departmentId String           @map("department_id")
+  categoryId   String?          @map("category_id")
+
+  // Record classification — prevents budget accounting entries from appearing as welfare schemes
+  recordType   SchemeRecordType @default(PENDING_CLASSIFICATION) @map("record_type")
+
+  // Real financial outlays from Union Budget Expenditure Profile (in ₹ Crores)
+  actuals20242025Crores Decimal @default(0.00) @map("actuals_2024_2025_total_crores") @db.Decimal(14, 2)
+  be20252026Crores      Decimal @default(0.00) @map("be_2025_2026_total_crores") @db.Decimal(14, 2)
+  re20252026Crores      Decimal @default(0.00) @map("re_2025_2026_total_crores") @db.Decimal(14, 2)
+  be20262027Crores      Decimal @default(0.00) @map("be_2026_2027_total_crores") @db.Decimal(14, 2)
+
+  // Citizen-facing content (kept NULL until real government data is available — never fabricated)
+  description          String?   @db.Text
+  plainLanguageSummary String?   @map("plain_language_summary") @db.Text
+  schemeLevel          String?   @map("scheme_level")
+  state                String?
+  targetBeneficiaries  String?   @map("target_beneficiaries") @db.Text
+  eligibilityText      String?   @map("eligibility_text") @db.Text
+  benefits             String?   @db.Text
+  requiredDocuments    String?   @map("required_documents") @db.Text
+  applicationProcess   String?   @map("application_process") @db.Text
+  officialUrl          String?   @map("official_url")
+  officialApplicationUrl String? @map("official_application_url")
+  sourceUrl            String?   @map("source_url")
+  sourceTitle          String?   @map("source_title")
+  verificationStatus   String?   @map("verification_status")
+  lastVerifiedAt       DateTime? @map("last_verified_at")
+  lastUpdated          DateTime? @map("last_updated")
+  isActive             Boolean   @default(true) @map("is_active")
+  reviewNotes          String?   @map("review_notes") @db.Text
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relationships
+  department       Department                        @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  category         Category?                         @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  mappings         SchemeSourceMapping[]
+  eligibilityRules GovernmentSchemeEligibilityRule[]
+
+  @@unique([departmentId, schemeName])
+  @@index([departmentId])
+  @@index([categoryId])
+  @@index([schemeName])
+  @@index([recordType])
+  @@index([state])
+  @@map("schemes")
+}
+
+// ============================================================================
+// DATASET C — Verified Government Scheme Eligibility Rules Foundation
+// ============================================================================
+
+model GovernmentSchemeEligibilityRule {
+  id                 String    @id @default(uuid())
+  schemeId           String    @map("scheme_id")
+
+  ageMin             Int?      @map("age_min")
+  ageMax             Int?      @map("age_max")
+  gender             String?
+  state              String?
+  occupation         String?
+  annualIncomeMin    Float?    @map("annual_income_min")
+  annualIncomeMax    Float?    @map("annual_income_max")
+  category           String?
+  residency          String?
+  landHoldingMin     Float?    @map("land_holding_min")
+  landHoldingMax     Float?    @map("land_holding_max")
+  employmentStatus   String?   @map("employment_status")
+  disabilityStatus   String?   @map("disability_status")
+  specialConditions  String?   @map("special_conditions") @db.Text
+  requiredDocuments  String?   @map("required_documents") @db.Text
+
+  sourceName         String?   @map("source_name")
+  sourceUrl          String?   @map("source_url")
+  verifiedDate       DateTime? @map("verified_date")
+  isVerified         Boolean   @default(false) @map("is_verified")
+
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
+
+  scheme             Scheme    @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+
+  @@index([schemeId])
+  @@index([isVerified])
+  @@map("government_scheme_eligibility_rules")
+}
+
+// ============================================================================
+// DATASET B — Official myScheme Metadata & Eligibility (API Setu Integration)
+// ============================================================================
+
+model GovernmentScheme {
+  id                 String    @id @default(uuid())
+  sourceId           String?   @unique @map("source_id") // Official unique scheme code/slug from myScheme API
+  schemeName         String    @map("scheme_name")
+  schemeShortTitle   String?   @map("scheme_short_title")
+  ministry           String?
+  departmentName     String?   @map("department_name")
+  schemeLevel        String?   @map("scheme_level") // "Central Sector", "Centrally Sponsored", or "State"
+  stateName          String?   @map("state_name") // State/UT applicability
+
+  // Narrative Qualitative Content (Original Government Text)
+  description        String?   @db.Text
+  eligibilityText    String?   @map("eligibility_text") @db.Text
+  benefits           String?   @db.Text
+  targetBeneficiaries String?  @map("target_beneficiaries") @db.Text
+  applicationProcess String?   @map("application_process") @db.Text
+  requiredDocuments  String?   @map("required_documents") @db.Text
+  officialUrl        String?   @map("official_url")
+
+  // Provenance Metadata
+  sourceName         String    @default("myScheme API Setu") @map("source_name")
+  sourceUrl          String    @default("https://apisetu.gov.in/directory/api/myscheme") @map("source_url")
+  retrievedAt        DateTime  @default(now()) @map("retrieved_at")
+  sourceLastUpdated  DateTime? @map("source_last_updated")
+
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
+
+  // Relationships
+  sources            GovernmentSchemeSource[]
+  budgetMappings     SchemeSourceMapping[]
+
+  @@index([schemeName])
+  @@index([ministry])
+  @@index([stateName])
+  @@map("government_schemes")
+}
+
+model GovernmentSchemeSource {
+  id                 String           @id @default(uuid())
+  governmentSchemeId String           @map("government_scheme_id")
+  sourceName         String           @map("source_name")
+  sourceUrl          String           @map("source_url")
+  rawPayload         String?          @db.Text @map("raw_payload")
+  retrievedAt        DateTime         @default(now()) @map("retrieved_at")
+
+  governmentScheme   GovernmentScheme @relation(fields: [governmentSchemeId], references: [id], onDelete: Cascade)
+
+  @@map("government_scheme_sources")
+}
+
+model SchemeSourceMapping {
+  id                 String           @id @default(uuid())
+  budgetSchemeId     String           @map("budget_scheme_id")
+  governmentSchemeId String           @map("government_scheme_id")
+  matchType          String           @default("EXACT") @map("match_type") // "EXACT" or "VERIFIED_MANUAL"
+  confidenceScore    Float            @default(1.0) @map("confidence_score")
+  notes              String?          @db.Text
+
+  createdAt          DateTime         @default(now()) @map("created_at")
+
+  budgetScheme       Scheme           @relation(fields: [budgetSchemeId], references: [id], onDelete: Cascade)
+  governmentScheme   GovernmentScheme @relation(fields: [governmentSchemeId], references: [id], onDelete: Cascade)
+
+  @@unique([budgetSchemeId, governmentSchemeId])
+  @@map("scheme_source_mappings")
+}
+
+// ============================================================================
+// CONVERSATION SESSIONS — Multi-Turn Persistent Memory & Profile State
+// ============================================================================
+
+model ConversationSession {
+  id           String    @id @default(uuid())
+  sessionId    String    @unique @map("session_id")
+  profile      Json      @default("{}")
+  messages     Json      @default("[]")
+  consentGiven Boolean   @default(false) @map("consent_given")
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+  lastActive   DateTime  @default(now()) @map("last_active")
+  ttlMinutes   Int       @default(1440) @map("ttl_minutes")
+
+  @@index([sessionId])
+  @@index([lastActive])
+  @@map("conversation_sessions")
+}
+

@@ -1,0 +1,57 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-05T10:19:00.126Z",
+    "pipeline_version": "1.0.0",
+    "dataset": "Punjab State Government Schemes"
+  },
+  "summary_counts": {
+    "raw_records_collected": 20,
+    "cleaned_records": 20,
+    "validated_records_output": 20,
+    "excluded_records_count": 0,
+    "exact_duplicates_detected": 0,
+    "possible_duplicates_flagged": 0
+  },
+  "verification_status_counts": {
+    "VERIFIED": 20,
+    "NEEDS_REVIEW": 0,
+    "UNVERIFIED": 0
+  },
+  "scheme_classification_counts": {
+    "STATE_FUNDED": 17,
+    "STATE_IMPLEMENTED_CENTRAL": 3,
+    "OTHER/UNCONFIRMED": 0
+  },
+  "missing_value_counts": {
+    "scheme_name": 0,
+    "department_name": 0,
+    "description": 0,
+    "benefits": 0,
+    "eligibility_criteria": 0,
+    "target_beneficiaries": 0,
+    "application_process": 0,
+    "required_documents": 0,
+    "official_portal_url": 0
+  },
+  "url_quality": {
+    "invalid_or_inaccessible_url_counts": 0,
+    "all_urls_syntactically_valid": true
+  },
+  "source_coverage": {
+    "myScheme": 10,
+    "Punjab Department of Planning": 8,
+    "State Health Agency Punjab": 1,
+    "Punjab State Power Corporation Limited": 1
+  },
+  "exclusions_audit_trail": [],
+  "validation_limitations": [
+    "Direct government API credentials for API Setu remain pending partner subscription; data was collected via official public government web portals.",
+    "Centrally sponsored schemes implemented in Punjab (e.g. BADP, IGNOAPS, NFBS) are isolated under STATE_IMPLEMENTED_CENTRAL classification to avoid misclassifying them as purely state-funded.",
+    "Financial allocation records from Department of Planning represent institutional grants/gap-filling schemes with department-level eligibility rather than individual citizen eligibility.",
+    "Zero synthetic records or AI-fabricated eligibility rules were added; all fields directly reflect published government provisions."
+  ],
+  "import_readiness_assessment": {
+    "is_ready_for_database_import": true,
+    "pending_action": "Awaiting user review and approval prior to executing PostgreSQL/Prisma import script."
+  }
+}

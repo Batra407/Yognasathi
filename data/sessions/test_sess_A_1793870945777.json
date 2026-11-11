@@ -1,0 +1,20 @@
+{
+  "sessionId": "test_sess_A_1793870945777",
+  "profile": {
+    "occupation": "farmer",
+    "state": "Punjab",
+    "age": 45
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a farmer, 45 years old, from Punjab.",
+      "timestamp": "2026-11-05T09:29:05.799Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793870945796,
+  "ttlMinutes": 1440
+}

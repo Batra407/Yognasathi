@@ -1,0 +1,26 @@
+{
+  "sessionId": "test_sess_B_1793869646454",
+  "profile": {
+    "state": "Haryana",
+    "occupation": "farmer",
+    "landHolding": 3
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a farmer from Haryana and own 3 acres.",
+      "timestamp": "2026-11-05T09:07:26.471Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Which crops do you grow on your land? (e.g. wheat, paddy, cotton, mustard)",
+      "timestamp": "2026-11-05T09:07:26.518Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793869646518,
+  "ttlMinutes": 1440
+}

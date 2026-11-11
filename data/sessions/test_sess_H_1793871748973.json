@@ -1,0 +1,27 @@
+{
+  "sessionId": "test_sess_H_1793871748973",
+  "profile": {
+    "age": 32,
+    "state": "Punjab",
+    "occupation": "farmer",
+    "landHolding": 4
+  },
+  "messages": [
+    {
+      "role": "user",
+      "intent": "PROVIDE_PROFILE",
+      "content": "I am a 32 year old farmer from Punjab with 4 acres land",
+      "language": "en",
+      "timestamp": "2026-11-05T09:42:28.973Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Which crops do you grow on your land? (e.g. wheat, paddy, cotton, mustard)",
+      "timestamp": "2026-11-05T09:42:28.983Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793871749396,
+  "ttlMinutes": 1440
+}

@@ -1,0 +1,39 @@
+{
+  "name": "nextjsproject",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "jest tests/unit",
+    "test:unit": "jest tests/unit",
+    "test:integration": "node tests/integration/test_api_integration.js",
+    "test:e2e": "playwright test",
+    "test:regression": "node tests/regression/test_all_regressions.js",
+    "test:all": "npm run test:unit && npm run test:integration && npm run test:e2e && npm run test:regression"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "gsap": "^3.15.0",
+    "lenis": "^1.1.20",
+    "lucide-react": "^1.67.0",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@prisma/client": "^5.22.0",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^4"
+  }
+}

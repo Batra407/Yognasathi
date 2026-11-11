@@ -1,0 +1,65 @@
+{
+  "sessionId": "test_sess_C_1793876204312",
+  "profile": {
+    "occupation": "farmer",
+    "age": 45,
+    "state": "Punjab"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a farmer",
+      "timestamp": "2026-11-05T10:56:44.368Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Which state do you belong to? (e.g. Punjab or Haryana)",
+      "timestamp": "2026-11-05T10:56:44.401Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "content": "I am 45 years old",
+      "timestamp": "2026-11-05T10:56:44.445Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Which state do you belong to? (e.g. Punjab or Haryana)",
+      "timestamp": "2026-11-05T10:56:44.457Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "content": "I live in Punjab",
+      "timestamp": "2026-11-05T10:56:44.460Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you own agricultural land? How many acres of land do you have?",
+      "timestamp": "2026-11-05T10:56:44.469Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "content": "What schemes are available for me?",
+      "timestamp": "2026-11-05T10:56:44.471Z",
+      "language": "en",
+      "intent": "FIND_SCHEMES"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you own agricultural land? How many acres of land do you have?",
+      "timestamp": "2026-11-05T10:56:44.496Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793876204496,
+  "ttlMinutes": 1440
+}

@@ -1,0 +1,1907 @@
+[
+  {
+    "text": "I am a farmer looking for subsidy on seeds and fertilizers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Need agricultural equipment subsidy in Punjab",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "I own 3 acres of agricultural land and need crop insurance",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "How can I apply for PM Kisan Samman Nidhi?",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Solar tubewell pump subsidy application for farmers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Drip irrigation subsidy scheme for cotton farmers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Tractor purchase subsidy loan for small farmers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Organic farming assistance grant for rural cultivators",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Horticulture mission grant for fruit orchard cultivation",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Kisan credit card low interest agricultural loan",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Compensation for hail damaged wheat crop in Punjab",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Micro irrigation scheme for sugarcane farmers in Haryana",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Dairy farming loan subsidy for rural milk producers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Paddy residue management machine subsidy in Punjab",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Soil health card testing and free fertilizer recommendations",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Subsidy on harvester combine and rotavator for farmers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Greenhouse polyhouse setup subsidy for vegetable growers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Sprinkler set government grant for dryland farming",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Government cold storage subsidy for potato farmers",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Fasal bima claim for unseasonal rain flood damage",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Assistance for purchase of power tiller and seed drill",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Subsidized high yielding variety seeds of mustard and gram",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Beekeeping apiculture grant and honey production loan",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Solar water pumping system under PM KUSUM component B",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "Cattle feed subsidy and veterinary medicine support",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "en"
+  },
+  {
+    "text": "मुझे खाद और बीज पर मिलने वाली सरकारी सब्सिडी चाहिए",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "मैं पंजाब का किसान हूँ मेरी फसल खराब हो गई है",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "किसान क्रेडिट कार्ड कैसे बनवाएं और कितना लोन मिलेगा",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "फसल बीमा योजना के तहत क्लेम कैसे करें",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "ट्रैक्टर और कृषि यंत्रों पर सरकारी अनुदान",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "सौर ऊर्जा ट्यूबवेल और पंप सेट के लिए आवेदन",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "ड्रिप सिंचाई और फव्वारा सिंचाई योजना",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "गेहूं और धान की सरकारी खरीद एमएसपी पर",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "पशुपालन और डेयरी फार्मिंग के लिए सस्ता लोन",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "जैविक खेती प्रोत्साहन योजना और अनुदान",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "कीटनाशक और खरपतवार नाशक पर मिलने वाली छूट",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "मत्स्य पालन और मछली पालन तालाब निर्माण सब्सिडी",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "धान की पराली प्रबंधन हेतु बेलर और हैप्पी सीडर पर सब्सिडी",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "गन्ना किसानों का बकाया भुगतान और सरकारी सहायता",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "मृदा स्वास्थ्य कार्ड कैसे बनवाएं और खेत की मिट्टी जांच",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "कपास की फसल में गुलाबी सुंडी के नुकसान का मुआवजा",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "पोल्ट्री फार्म मुर्गी पालन हेतु बैंक लोन सब्सिडी",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "बागवानी मिशन के तहत आम और किन्नू के बाग लगाने पर अनुदान",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "कृषि यंत्र बैंक योजना के तहत कस्टम हायरिंग सेंटर",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "सूखा राहत मुआवजा और फसल क्षतिपूर्ति सहायता",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੈਂ ਪੰਜਾਬ ਦਾ ਕਿਸਾਨ ਹਾਂ ਖੇਤੀਬਾੜੀ ਸਬਸਿਡੀ ਚਾਹੀਦੀ ਹੈ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਟਿਊਬਵੈੱਲ ਸੋਲਰ ਪੰਪ ਲਈ ਸਰਕਾਰੀ ਗ੍ਰਾਂਟ ਕਿਵੇਂ ਮਿਲੇਗੀ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੇਰੇ ਕੋਲ 2 ਏਕੜ ਜ਼ਮੀਨ ਹੈ ਕਣਕ ਦੇ ਬੀਜ ਲਈ ਸਕੀਮ ਦੱਸੋ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਕਿਸਾਨ ਕਰਜ਼ਾ ਮਾਫੀ ਅਤੇ ਖੇਤੀ ਮਸ਼ੀਨਰੀ ਸਹਾਇਤਾ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਝੋਨੇ ਦੀ ਪਰਾਲੀ ਸੰਭਾਲਣ ਵਾਲੀ ਮਸ਼ੀਨ 'ਤੇ ਸਬਸਿਡੀ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਫਸਲੀ ਬੀਮਾ ਮੁਆਵਜ਼ਾ ਕਿਵੇਂ ਪ੍ਰਾਪਤ ਕਰੀਏ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਡੇਅਰੀ ਫਾਰਮਿੰਗ ਅਤੇ ਪਸ਼ੂ ਪਾਲਣ ਲਈ ਸਰਕਾਰੀ ਕਰਜ਼ਾ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਸਬਜ਼ੀਆਂ ਅਤੇ ਬਾਗਬਾਨੀ ਲਈ ਪੰਜਾਬ ਸਰਕਾਰ ਦੀਆਂ ਸਕੀਮਾਂ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਕਣਕ ਦੀ ਖਰੀਦ ਅਤੇ ਮੰਡੀ ਵਿਚ ਐਮਐਸਪੀ ਦਾ ਭੁਗਤਾਨ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਸੁਪਰ ਸੀਡਰ ਅਤੇ ਹੈਪੀ ਸੀਡਰ ਲਈ ਸਰਕਾਰੀ ਗ੍ਰਾਂਟ ਫਾਰਮ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਖੇਤੀਬਾੜੀ ਵਿਭਾਗ ਵੱਲੋਂ ਮੁਫਤ ਖਾਦ ਅਤੇ ਕੀਟਨਾਸ਼ਕ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਗਊਸ਼ਾਲਾ ਅਤੇ ਡੇਅਰੀ ਸ਼ੈੱਡ ਬਣਾਉਣ ਲਈ ਵਿੱਤੀ ਮਦਦ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਨਰਮੇ ਦੀ ਫਸਲ ਖਰਾਬ ਹੋਣ ਤੇ ਮੁਆਵਜ਼ਾ ਕਦੋਂ ਮਿਲੇਗਾ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਫੁਹਾਰਾ ਸਿੰਚਾਈ ਪ੍ਰਣਾਲੀ ਅਤੇ ਪਾਈਪ ਲਾਈਨ ਸਬਸਿਡੀ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੱਛੀ ਪਾਲਣ ਲਈ ਸਰਕਾਰੀ ਤਲਾਬ ਅਤੇ ਸਬਸਿਡੀ ਸਕੀਮ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮਧੂ ਮੱਖੀ ਪਾਲਣ ਅਤੇ ਸ਼ਹਿਦ ਉਤਪਾਦਨ ਲਈ ਕਰਜ਼ਾ",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "pa"
+  },
+  {
+    "text": "Main punjab se farmer hu mujhe khet ke liye subsidy chahiye",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Kisan bhaiyo ke liye konsi sarkari yojana chal rahi hai",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Tractor subsidy ke liye form kaha bhare",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Khet me borewell lagwane ke liye sarkari grant",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Fasal kharab hone par bima claim process",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "PM kisan ki agli kist kab aayegi bank me",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Gehu aur dhaan ki fasal ke liye sasta fertilizer",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Dairy kheti ke liye bank se subsidised loan",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Mere paas 4 acre zameen hai drip irrigation lagwana hai",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Parali jalane se bachane wali machine par discount",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Kheti ke aujar khareedne ke liye sarkari sahayata",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Kisan credit card KCC renewal process kya hai",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Khet me solar panel lagane ke liye PM kusum scheme",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Cotton aur mustard crop ke liye beej subsidy",
+    "label": "FARMER_AGRICULTURE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "I am a college student searching for merit scholarship",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Post matric scholarship for SC ST students in Haryana",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Free laptop scheme and financial aid for 12th pass students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "How can an engineering student get education loan subsidy?",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Higher education scholarship for girls in government university",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Merit cum means financial assistance for minority students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Free coaching scheme for UPSC and competitive examinations",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Stipend for vocational training and ITI polytechnic students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Central sector scholarship scheme for college and university",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Overseas education fellowship for scheduled caste youth",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Single girl child scholarship for postgraduate studies",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Hostel subsidy and textbook allowance for college students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Research fellowship funding for doctoral PhD scholars",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "National means cum merit scholarship for secondary school",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "AICTE Pragati scholarship for technical education girls",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Tuition fee waiver scheme for economically weaker sections",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Sports scholarship for state and national medal winners",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Bicyle distribution scheme for rural high school students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Special education scholarship for differently abled students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Dr Ambedkar post matric scholarship portal registration",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Scholarship for physically handicapped students in college",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "Free tab tablet distribution scheme for degree students",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "en"
+  },
+  {
+    "text": "मुझे कॉलेज की पढ़ाई के लिए छात्रवृत्ति चाहिए",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "10वीं और 12वीं पास छात्रों के लिए सरकारी वजीफा योजना",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "एससी एसटी छात्रों के लिए पोस्ट मैट्रिक स्कॉलरशिप",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "गरीब मेधावी बच्चों के लिए उच्च शिक्षा सहायता",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "छात्राओं के लिए मुफ्त लैपटॉप और स्कूटी योजना",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "इंजीनियरिंग और मेडिकल कॉलेज फीस माफी योजना",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "प्रतियोगी परीक्षाओं की तैयारी के लिए फ्री कोचिंग",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "अल्पसंख्यक समुदाय के विद्यार्थियों के लिए छात्रवृत्ति",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "आईआईटी और एनआईटी में पढ़ने वाले छात्रों को लोन सब्सिडी",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "सरकारी स्कूल के बच्चों के लिए मुफ्त वर्दी और किताबें",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "नेशनल स्कॉलरशिप पोर्टल पर ऑनलाइन आवेदन कैसे करें",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "बीपीएल परिवार के छात्रों हेतु हॉस्टल और भोजन भत्ता",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "एकल कन्या संतान हेतु यूजीसी पीजी स्कॉलरशिप",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "विदेश में मास्टर डिग्री हेतु सरकारी फेलोशिप योजना",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "आईटीआई और डिप्लोमा छात्रों को मासिक स्टाइपेंड",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "दिव्यांग विद्यार्थियों के लिए विशेष छात्रवृत्ति योजना",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hi"
+  },
+  {
+    "text": "ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਸਰਕਾਰੀ ਵਜ਼ੀਫ਼ਾ ਕਿਵੇਂ ਮਿਲੇਗਾ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਕਾਲਜ ਦੀ ਪੜ੍ਹਾਈ ਲਈ ਵਿੱਤੀ ਸਹਾਇਤਾ ਸਕੀਮ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਐਸਸੀ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਮੁਫਤ ਕਿਤਾਬਾਂ ਅਤੇ ਵਜ਼ੀਫਾ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਦਸਵੀਂ ਪਾਸ ਕੁੜੀਆਂ ਲਈ ਉਚੇਰੀ ਸਿੱਖਿਆ ਗ੍ਰਾਂਟ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੈਡੀਕਲ ਅਤੇ ਇੰਜੀਨੀਅਰਿੰਗ ਕਾਲਜ ਫੀਸ ਮੁਆਫੀ ਸਕੀਮ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਕੰਪੀਟੀਸ਼ਨ ਪ੍ਰੀਖਿਆਵਾਂ ਦੀ ਤਿਆਰੀ ਲਈ ਮੁਫਤ ਕੋਚਿੰਗ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਪੋਸਟ ਮੈਟ੍ਰਿਕ ਵਜ਼ੀਫਾ ਪੋਰਟਲ ਰਜਿਸਟ੍ਰੇਸ਼ਨ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਸਰਕਾਰੀ ਕਾਲਜ ਹੋਸਟਲ ਫੀਸ ਵਿਚ ਛੋਟ ਲਈ ਅਰਜ਼ੀ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਡਾਕਟਰ ਬੀ ਆਰ ਅੰਬੇਡਕਰ ਵਿਦਿਆਰਥੀ ਸਹਾਇਤਾ ਸਕੀਮ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਗਰੀਬ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਲੈਪਟਾਪ ਅਤੇ ਸਾਈਕਲ ਸਕੀਮ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੋਲੀਟੈਕਨਿਕ ਅਤੇ ਆਈਟੀਆਈ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਮਾਸਿਕ ਭੱਤਾ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਯੂਨੀਵਰਸਿਟੀ ਵਿਚ ਫੀਸ ਰਿਆਇਤ ਫਾਰਮ",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "pa"
+  },
+  {
+    "text": "Student scholarship ke liye online apply kaise kare",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Mera beta 12th me 85 percent laya hai scholarship milegi",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "College fees maaf karwane ke liye koi scheme hai kya",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Padhai ke liye education loan bina byaj ke",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Govt school students ke liye stipend process",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "SC category ke liye post matric scholarship portal",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Engineering college me admission ke liye sarkari grant",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Competitive exam UPSC ki free coaching scheme",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Ladkiyo ke liye higher study me financial help",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "NSP portal par form submit kaise hoga",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Medical entrance NEET clear kiya hai koi scholarship hai",
+    "label": "EDUCATION_SCHOLARSHIP",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Old age pension scheme application for 65 year old citizen",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Widow pension scheme eligibility criteria and monthly amount",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Disability pension scheme documents required for PwD",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Senior citizen pension scheme Punjab monthly payment status",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "How can my grandmother get monthly elderly financial support?",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Destitute and abandoned elderly monthly allowance scheme",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Pension scheme for disabled persons with 40 percent disability",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Indira Gandhi National Old Age Pension Scheme criteria",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Atal Pension Yojana monthly guaranteed retirement benefit",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Financial assistance for unorganized sector retired workers",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "War widow and ex serviceman family pension scheme",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Leprosy cured persons monthly financial pension grant",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Transgender community monthly social security pension",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Senior citizen bus travel concession card and healthcare pass",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Monthly financial relief for dependent elderly parents",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Old age home admission and free medical checkup facility",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Pension disbursement delay grievance registration portal",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "National family benefit scheme on death of primary breadwinner",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "Pension for dwarf persons and severely handicapped individuals",
+    "label": "PENSION_SENIOR",
+    "lang": "en"
+  },
+  {
+    "text": "मेरी उम्र 62 वर्ष है मुझे वृद्धावस्था पेंशन के लिए आवेदन करना है",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "विधवा पेंशन योजना के लिए जरूरी दस्तावेज और पात्रता",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "दिव्यांग पेंशन योजना में कितना मासिक भत्ता मिलता है",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "वरिष्ठ नागरिकों के लिए सरकारी पेंशन योजना",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "बुजुर्गों को हर महीने 2500 रुपये पेंशन कैसे मिलेगी",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "बेसहारा और परित्यक्ता महिलाओं के लिए पेंशन योजना",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "अटल पेंशन योजना में खाता कैसे खुलवाएं",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "विकलांग पेंशन के लिए 40 प्रतिशत प्रमाण पत्र कहां बनेगा",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "वृद्धावस्था सम्मान भत्ता योजना हरियाणा",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "समाज कल्याण विभाग पेंशन स्टेटस कैसे चेक करें",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "माता पिता भरण पोषण अधिनियम के तहत सहायता",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "पेंशन खाते में आधार लिंक और जीवन प्रमाण पत्र जमा करना",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "बुढ़ापा पेंशन बंद होने पर दोबारा चालू कैसे कराएं",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "कुष्ठ रोग पीड़ित व्यक्तियों हेतु विशेष मासिक पेंशन",
+    "label": "PENSION_SENIOR",
+    "lang": "hi"
+  },
+  {
+    "text": "ਸਰਕਾਰੀ ਬੁਢਾਪਾ ਪੈਨਸ਼ਨ ਲਈ ਅਰਜ਼ੀ ਫਾਰਮ ਕਿੱਥੇ ਜਮ੍ਹਾ ਕਰਨਾ ਪਵੇਗਾ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੇਰੀ ਦਾਦੀ ਦੀ ਉਮਰ 70 ਸਾਲ ਹੈ ਪੈਨਸ਼ਨ ਕਿਵੇਂ ਲਗਵਾਈਏ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਵਿਧਵਾ ਪੈਨਸ਼ਨ ਅਤੇ ਅੰਗਹੀਣ ਪੈਨਸ਼ਨ ਸਕੀਮ ਪੰਜਾਬ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਮਿਲਣ ਵਾਲੀ ਮਹੀਨਾਵਾਰ ਵਿੱਤੀ ਸਹਾਇਤਾ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਅੰਗਹੀਣਤਾ ਸਰਟੀਫਿਕੇਟ ਦੇ ਆਧਾਰ 'ਤੇ ਦਿਵਿਆਂਗ ਪੈਨਸ਼ਨ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਬੁਢਾਪਾ ਪੈਨਸ਼ਨ 1500 ਰੁਪਏ ਮਹੀਨਾਵਾਰ ਖਾਤੇ ਵਿਚ ਕਦੋਂ ਆਵੇਗੀ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਸਮਾਜਿਕ ਸੁਰੱਖਿਆ ਵਿਭਾਗ ਪੰਜਾਬ ਪੈਨਸ਼ਨ ਫਾਰਮ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਬਜ਼ੁਰਗਾਂ ਲਈ ਸਰਕਾਰੀ ਬੱਸਾਂ ਵਿਚ ਮੁਫਤ ਸਫਰ ਕਾਰਡ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਜੱਦੀ ਜਾਇਦਾਦ ਬਿਨਾ ਬੇਸਹਾਰਾ ਬਜ਼ੁਰਗਾਂ ਲਈ ਗ੍ਰਾਂਟ",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਸਰਕਾਰ ਵਿਧਵਾ ਪੈਨਸ਼ਨ ਯੋਜਨਾ ਦਸਤਾਵੇਜ਼",
+    "label": "PENSION_SENIOR",
+    "lang": "pa"
+  },
+  {
+    "text": "Budhapa pension ke liye eligibility kya hai",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Meri mata ji widow hai unki pension lagwani hai",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Senior citizen pension har mahine kitni aati hai",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Viklang pension form online apply kaise hoga",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "60 saal se upar walo ko sarkari bhatta",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Old age pension account me paise nahi aaye",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Jeevan pramaan patra biometric verification kaise kare",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Divyang certificate ke baad pension kaise shuru hogi",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Vridhavastha pension ka online form bharna hai",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Widow pension ke liye death certificate mandatory hai kya",
+    "label": "PENSION_SENIOR",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Financial assistance for marriage of daughter under Shagun scheme",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Self help group loan scheme for rural women entrepreneurs",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Free sewing machine scheme for women empowerment",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Maternity benefit financial assistance scheme for pregnant women",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Women skill training and subsidy for small businesses",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Kanya Sumangala financial grant for girl child birth to graduation",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Stand Up India collateral free loan for female entrepreneurs",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Free sanitary napkin distribution scheme for adolescent girls",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Lakhpati Didi training scheme for rural village women",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Subsidized cooking gas connection under Ujjwala Yojana",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Financial aid for poor families marrying their adult daughters",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Working women hostel accommodation facilities in cities",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Mukhyamantri Kanya Utthan Yojana graduation reward 50000",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Mahila Samman Savings Certificate interest rate and deposit",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "One stop centre support for distressed women in rural areas",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Beti Bachao Beti Padhao incentive savings account scheme",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "Incentive for inter caste marriage involving scheduled caste girl",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "en"
+  },
+  {
+    "text": "बेटी की शादी के लिए शगुन योजना में कितनी सहायता मिलती है",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "महिला स्व-सहायता समूह लोन योजना कम ब्याज पर",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "महिलाओं के लिए फ्री सिलाई मशीन योजना",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "गर्भवती महिलाओं के लिए मातृ वंदना योजना",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "लाडली बहना योजना मासिक सहायता राशि",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "उज्ज्वला योजना के तहत मुफ्त गैस सिलेंडर और चूल्हा",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "लखपति दीदी योजना में महिलाओं को सिलाई और व्यापार ट्रेनिंग",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "सुकन्या समृद्धि योजना खाता डाकघर में कैसे खुलवाएं",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "कन्या विवाह सहायता योजना 51 हजार रुपये",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "महिला कुटीर उद्योग हेतु मुद्रा लोन और सब्सिडी",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "गर्भावस्था के दौरान 6000 रुपये पोषण सहायता राशि",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "अकेली मां और विधवा महिलाओं को स्वरोजगार अनुदान",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "बेटी के जन्म पर सरकारी बचत बॉन्ड योजना",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "स्त्री शक्ति पैकेज योजना महिला व्यवसाय ऋण",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hi"
+  },
+  {
+    "text": "ਕੁੜੀ ਦੇ ਵਿਆਹ ਲਈ ਸ਼ਗਨ ਸਕੀਮ 51000 ਰੁਪਏ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਔਰਤਾਂ ਲਈ ਸਵੈ-ਰੁਜ਼ਗਾਰ ਅਤੇ ਸਿਲਾਈ ਸਿਖਲਾਈ ਸਕੀਮ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਗਰਭਵਤੀ ਔਰਤਾਂ ਲਈ ਵਿੱਤੀ ਸਹਾਇਤਾ ਅਤੇ ਪੋਸ਼ਣ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮਾਈ ਭਾਗੋ ਇਸਤਰੀ ਸ਼ਕਤੀਕਰਨ ਸਕੀਮ ਪੰਜਾਬ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਔਰਤਾਂ ਦੇ ਸਵੈ ਸਹਾਇਤਾ ਸਮੂਹਾਂ ਲਈ ਕਰਜ਼ਾ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਬੇਟੀ ਦੇ ਜਨਮ 'ਤੇ ਮੁਫਤ ਸਿਹਤ ਸੰਭਾਲ ਅਤੇ ਗ੍ਰਾਂਟ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪਿੰਡ ਦੀਆਂ ਔਰਤਾਂ ਲਈ ਡੇਅਰੀ ਅਤੇ ਮੁਰਗੀ ਪਾਲਣ ਸਬਸਿਡੀ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੁਫਤ ਸਿਲਾਈ ਮਸ਼ੀਨ ਸਕੀਮ ਪੰਜਾਬ ਸਰਕਾਰ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਲੜਕੀਆਂ ਦੀ ਉਚੇਰੀ ਪੜ੍ਹਾਈ ਲਈ ਵਿਸ਼ੇਸ਼ ਗ੍ਰਾਂਟ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਆਸ਼ੀਰਵਾਦ ਸਕੀਮ ਲੜਕੀ ਵਿਆਹ ਫਾਰਮ",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "pa"
+  },
+  {
+    "text": "Beti ki shadi ke liye shagun scheme me apply karna hai",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Mahilao ke liye zero interest business loan",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Free sewing machine yojana form kaise bhare",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Ladli beti ke naam par sarkari yojana bataye",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Mata vandan yojana me 6000 rupaye milte hai",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Pradhan mantri ujjwala gas connection list",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Self help group SHG loan par kitni subsidy hai",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Sukanya samriddhi account me kitna interest milta hai",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Women entrepreneur ke liye sarkari schemes",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Aashirwad scheme 51 hazar status check punjab",
+    "label": "WOMEN_EMPOWERMENT",
+    "lang": "hinglish"
+  },
+  {
+    "text": "How can I make an Ayushman Bharat golden card for 5 lakh treatment?",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Free hospital treatment and medicine scheme for low income families",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Government cashless health insurance policy for unorganized workers",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Medical financial assistance for chronic diseases like cancer",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Free dialysis service program in government district hospitals",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Tuberculosis patient direct cash nutritional support Nikshay",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Jan Aushadhi Kendra generic medicine at 80 percent discount",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Emergency ambulance service and trauma care reimbursement",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Cashless medical surgery coverage under Chief Minister Relief Fund",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Health cover for construction building laborers and families",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Kidney kidney transplant and cardiac surgery government grant",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "National digital health mission ABHA health card creation",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Free cataract eye surgery and spectacles for elderly citizens",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Maternal infant health scheme JSY cash assistance at delivery",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Rare genetic disease financial support government guidelines",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "Hearing aid machine and prosthetic limb free distribution",
+    "label": "HEALTH_INSURANCE",
+    "lang": "en"
+  },
+  {
+    "text": "आयुष्मान भारत गोल्डन कार्ड कैसे बनेगा 5 लाख का इलाज",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "गरीब परिवारों के लिए मुफ्त अस्पताल और दवाई योजना",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "कैंसर और दिल के इलाज के लिए मुख्यमंत्री राहत कोष",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "जन औषधि केंद्र से सस्ती जेनेरिक दवाइयां कैसे लें",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "टीबी मरीजों को पोषण के लिए 500 रुपये प्रति माह योजना",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "सरकारी अस्पताल में फ्री डायलिसिस और सीटी स्कैन",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "दुर्घटना बीमा और स्वास्थ्य सुरक्षा योजना",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "गंभीर बीमारी के इलाज के लिए राष्ट्रीय आरोग्य निधि",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "आभा डिजिटल हेल्थ आईडी कार्ड कैसे डाउनलोड करें",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "मोतियाबिंद का मुफ्त ऑपरेशन सरकारी अस्पताल में",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "गर्भवती महिला डिलीवरी के समय सरकारी सहायता 1400 रुपये",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "बीपीएल राशन कार्ड पर फ्री इलाज की सुविधा",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "एम्बुलेंस 108 सेवा और आपातकालीन चिकित्सा सहायता",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hi"
+  },
+  {
+    "text": "ਮੁਫਤ ਸਰਬੱਤ ਸਿਹਤ ਬੀਮਾ ਯੋਜਨਾ ਕਾਰਡ ਪੰਜਾਬ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਹਸਪਤਾਲ ਵਿਚ 5 ਲੱਖ ਤੱਕ ਮੁਫਤ ਇਲਾਜ ਲਈ ਸਕੀਮ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਸਰਕਾਰੀ ਹਸਪਤਾਲ ਦਵਾਈਆਂ ਅਤੇ ਟੈਸਟ ਮੁਫਤ ਸਹਾਇਤਾ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਕੈਂਸਰ ਪੀੜਤਾਂ ਲਈ ਮੁੱਖ ਮੰਤਰੀ ਰਾਹਤ ਫੰਡ ਸਕੀਮ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਜੱਚਾ ਬੱਚਾ ਸਿਹਤ ਸੰਭਾਲ ਅਤੇ ਟੀਕਾਕਰਨ ਸਹਾਇਤਾ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮੁਫਤ ਡਾਇਲਸਿਸ ਅਤੇ ਗੁਰਦੇ ਦੇ ਇਲਾਜ ਲਈ ਸਰਕਾਰੀ ਸਕੀਮ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਸਰਬੱਤ ਸਿਹਤ ਬੀਮਾ ਯੋਜਨਾ ਹਸਪਤਾਲ ਸੂਚੀ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਟੀਬੀ ਦੇ ਮਰੀਜ਼ਾਂ ਲਈ ਮਹੀਨਾਵਾਰ ਖੁਰਾਕ ਭੱਤਾ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਅੱਖਾਂ ਦਾ ਮੁਫਤ ਅਪਰੇਸ਼ਨ ਅਤੇ ਐਨਕਾਂ ਸਕੀਮ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਮੁੱਖ ਮੰਤਰੀ ਕੈਂਸਰ ਰਾਹਤ ਕੋਸ਼ 1.5 ਲੱਖ ਗ੍ਰਾਂਟ",
+    "label": "HEALTH_INSURANCE",
+    "lang": "pa"
+  },
+  {
+    "text": "Ayushman card kaise download kare online",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Hospital me free treatment ke liye konsa card chahiye",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Health insurance scheme for poor bpl families",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Badi bimari ke ilaj ke liye sarkari help",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Sehat bima yojana list me naam kaise check kare",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Abha card health id online generate kaise kare",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Free dialysis service sarkari hospital me kaise milegi",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Cancer patient financial relief fund form",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Cashless medical treatment card unorganized sector",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Sarbat sehat bima yojana punjab hospital list",
+    "label": "HEALTH_INSURANCE",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Pradhan Mantri Awas Yojana rural subsidy for building pucca house",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Urban housing grant for homeless and slum residents",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Subsidy on home loan interest rate for first time home buyers",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Free plot and construction grant for scheduled caste families",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Financial aid for roof repairing and toilet construction",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Affordable rental housing complexes for migrant laborers",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Grant of 1.2 lakh for house building under PMAY Gramin",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Swachh Bharat toilet construction incentive 12000 rupees",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Homeless shelter accommodation and night shelter facilities",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Rehabilitation housing for flood and natural disaster victims",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Credit linked subsidy scheme CLSS home loan interest rebate",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Free residential plot allocation for rural landless laborers",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Solar rooftop installation subsidy scheme for houses PM Surya Ghar",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Sanitation and septic tank construction financial aid",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "Beneficiary led individual house construction subsidy",
+    "label": "HOUSING_SHELTER",
+    "lang": "en"
+  },
+  {
+    "text": "प्रधानमंत्री आवास योजना के तहत पक्के मकान के लिए पैसे",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "कच्चा मकान पक्का करने के लिए सरकारी सहायता राशि",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "ग्रामीण बेघरों के लिए मुफ्त रिहायशी प्लॉट योजना",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "शौचालय निर्माण के लिए 12000 रुपये की सरकारी सहायता",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "शहर में सस्ते फ्लैट और होम लोन ब्याज सब्सिडी",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "मकान की छत मरम्मत के लिए अनुदान योजना",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "गरीब परिवारों को घर बनाने के लिए सवा लाख रुपये",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "पीएम सूर्य घर मुफ्त बिजली योजना सोलर रूफटॉप सब्सिडी",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "ग्रामीण क्षेत्र में बीपीएल परिवार को पक्का मकान सूची",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "बाढ़ या आगजनी में घर टूटने पर सरकारी मुआवजा",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "शहरी गरीब स्लम बस्तियों का पुनर्विकास आवास",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "इंदिरा आवास योजना की बकाया किस्त कब आएगी",
+    "label": "HOUSING_SHELTER",
+    "lang": "hi"
+  },
+  {
+    "text": "ਆਵਾਸ ਯੋਜਨਾ ਤਹਿਤ ਪੱਕਾ ਮਕਾਨ ਬਣਾਉਣ ਲਈ ਸਰਕਾਰੀ ਗ੍ਰਾਂਟ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਆਵਾਸ ਯੋਜਨਾ ਪੇਂਡੂ ਵਿਚ ਨਾਮ ਕਿਵੇਂ ਚੈੱਕ ਕਰੀਏ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਬੇਘਰੇ ਲੋਕਾਂ ਲਈ ਮੁਫਤ ਪਲਾਟ ਅਤੇ ਛੱਤ ਸਹਾਇਤਾ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪਖਾਨਾ ਬਣਾਉਣ ਲਈ 12000 ਰੁਪਏ ਦੀ ਸਹਾਇਤਾ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਮਕਾਨ ਦੀ ਮੁਰੰਮਤ ਲਈ ਪੰਜਾਬ ਸਰਕਾਰ ਦੀ ਗ੍ਰਾਂਟ ਸਕੀਮ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੇਂਡੂ ਬੇਜ਼ਮੀਨੇ ਪਰਿਵਾਰਾਂ ਲਈ 5 ਮਰਲੇ ਪਲਾਟ ਸਕੀਮ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਸੋਲਰ ਪੈਨਲ ਛੱਤ 'ਤੇ ਲਗਾਉਣ ਲਈ ਸਬਸਿਡੀ ਯੋਜਨਾ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਕੱਚਾ ਕੋਠਾ ਪੱਕਾ ਕਰਨ ਲਈ ਸਰਕਾਰੀ ਪੈਸੇ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਸ਼ਹਿਰੀ ਆਵਾਸ ਯੋਜਨਾ ਸਸਤੇ ਫਲੈਟ",
+    "label": "HOUSING_SHELTER",
+    "lang": "pa"
+  },
+  {
+    "text": "Awas yojana ki nayi list me apna naam kaise dekhe",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Makan banane ke liye sarkar kitna paisa deti hai",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Ghar banane ke liye plot subsidy scheme",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Toilet banwane ke liye 12 hazar kaise milenge",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "PMAY gramin list me registration kaise kare",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Chhat par solar panel lagwane par kitni subsidy milegi",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Pucca ghar banane ke liye bank loan subsidy",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Kacha ghar repair karne ke liye sarkari fund",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Rural housing scheme me documents kya lagte hai",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "PM surya ghar muft bijli yojana form",
+    "label": "HOUSING_SHELTER",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Unemployed youth monthly allowance and skill training center",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Subsidized loan for opening a retail shop under Mudra Yojana",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "PMKVY free computer and technician courses with certificate",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Street vendor loan 10000 rupees under PM SVANidhi scheme",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Self employment subsidy loan under PMEGP for village industries",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Rozgar Mela schedule and job placement for graduate youth",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Apprenticeship stipend scheme for diploma and engineering holders",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Dairy farming and poultry farm startup business capital",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Financial aid for purchase of commercial electric three wheeler",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Handicraft artisan identity card and tool kit grant PM Vishwakarma",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Khadhi village industries margin money subsidy scheme",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Standup India greenfield enterprise financing for SC ST",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Free driving and heavy vehicle operator license training",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Security guard and housekeeping vocational skill courses",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "Startup India seed fund scheme eligibility for entrepreneurs",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "en"
+  },
+  {
+    "text": "बेरोजगारी भत्ता योजना ऑनलाइन रजिस्ट्रेशन 12वीं और ग्रेजुएट",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "नया काम या दुकान शुरू करने के लिए मुद्रा लोन",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "कौशल विकास योजना में फ्री ट्रेनिंग और नौकरी",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "प्रधानमंत्री रोजगार सृजन कार्यक्रम में 35 प्रतिशत सब्सिडी",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "स्ट्रीट वेंडर रेहड़ी पटरी वालों के लिए 10000 का स्वनिधि लोन",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "कंप्यूटर कोर्स और मोबाइल रिपेयरिंग फ्री ट्रेनिंग सर्टिफिकेट",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "रोजगार मेले में सीधे इंटरव्यू और नौकरी",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "दस्तकारों और कारीगरों के लिए पीएम विश्वकर्मा योजना",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "ई-रिक्शा खरीदने के लिए सरकारी अनुदान और बैंक लोन",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "खुद का बिजनेस शुरू करने हेतु गारंटी मुक्त ऋण",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "स्नातक बेरोजगार युवाओं को 3000 रुपये मासिक भत्ता",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "मुख्यमंत्री युवा स्वरोजगार योजना उत्तर प्रदेश",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hi"
+  },
+  {
+    "text": "ਰੇਹੜੀ ਫੜ੍ਹੀ ਵਾਲਿਆਂ ਲਈ 10000 ਦਾ ਸਵਨਿਧੀ ਲੋਨ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਬੇਰੁਜ਼ਗਾਰੀ ਭੱਤਾ ਕਿਵੇਂ ਮਿਲੇਗਾ ਪੰਜਾਬ ਸਰਕਾਰ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਹੁਨਰ ਵਿਕਾਸ ਕੇਂਦਰ ਵਿਚ ਮੁਫਤ ਕੋਰਸ ਅਤੇ ਸਰਟੀਫਿਕੇਟ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਨਵਾਂ ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸਸਤਾ ਕਰਜ਼ਾ ਅਤੇ ਸਬਸਿਡੀ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਘਰ ਘਰ ਰੋਜ਼ਗਾਰ ਮੇਲਾ ਜਾਣਕਾਰੀ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੀਐਮਈਜੀਪੀ ਸਕੀਮ ਤਹਿਤ ਛੋਟੇ ਉਦਯੋਗ ਲਈ ਕਰਜ਼ਾ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਡਰਾਈਵਿੰਗ ਲਾਇਸੰਸ ਅਤੇ ਮੋਬਾਈਲ ਰਿਪੇਅਰ ਮੁਫਤ ਸਿਖਲਾਈ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਦਸਤਕਾਰਾਂ ਅਤੇ ਸ਼ਿਲਪਕਾਰਾਂ ਲਈ ਵਿਸ਼ਵਕਰਮਾ ਟੂਲਕਿੱਟ ਗ੍ਰਾਂਟ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "ਪੰਜਾਬ ਹੁਨਰ ਵਿਕਾਸ ਮਿਸ਼ਨ ਮੁਫਤ ਸਿਖਲਾਈ ਕੋਰਸ",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "pa"
+  },
+  {
+    "text": "Berozgari bhatta ke liye registration kaise kare",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Dukan kholne ke liye bina guarantee ka loan",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "PMKVY me free computer course kaise kare",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Naya business start karne ke liye mudra loan process",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Self employment scheme for unemployed youth",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Rehdi patri walo ke liye PM svanidhi loan form",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Rozgar mela me interview kaise de",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Vishwakarma yojana me free tools aur 15 hazar rupaye",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "Small business shuru karne ke liye govt subsidy",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  },
+  {
+    "text": "PMEGP scheme me 35 percent subsidy project report",
+    "label": "EMPLOYMENT_SKILL",
+    "lang": "hinglish"
+  }
+]

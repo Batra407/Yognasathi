@@ -1,0 +1,15 @@
+{
+  "sessionId": "test_sess_A_1793866784544",
+  "profile": {},
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Do you own agricultural land? How many acres of land do you have?",
+      "timestamp": "2026-11-05T08:19:44.863Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793866784863,
+  "ttlMinutes": 1440
+}

@@ -1,0 +1,174 @@
+/* ── Google Fonts: Inter & Outfit ─────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+/* ── Fresh, Clean, Bright & Premium Design System Tokens ───────────────────────── */
+:root {
+  /* Core Visual Direction Palette */
+  --bg-main:         #FFFFFF; /* Pure white base */
+  --bg-secondary:    #F8FAFC; /* Subtle off-white */
+  --bg-elevated:     #FFFFFF; /* Clean white surface */
+  --bg-card:         #FFFFFF;
+  --bg-card-hover:   #F1F5F9;
+  
+  /* Primary & Accent Colors */
+  --primary-amber:   #F5A623; /* Warm Amber accent */
+  --highlight-gold:  #FFC66B; /* Golden highlight */
+  --primary-blue:    #2563EB; /* Tech Blue */
+  --primary-blue-hover: #1D4ED8;
+  
+  /* Typography */
+  --text-primary:    #0F172A; /* Dark charcoal */
+  --text-secondary:  #475569; /* Slate secondary */
+  --text-dim:        #94A3B8; /* Subtle caption gray */
+
+  /* Borders & Dividers */
+  --border-subtle:   #E2E8F0; /* Clean light hairline */
+  --border-medium:   #CBD5E1;
+  --border-bright:   #94A3B8;
+  --border-amber:    rgba(245, 166, 35, 0.4);
+
+  /* State & Verification Status Colors */
+  --status-confirmed: #10B981; /* Success Emerald */
+  --status-warning:   #F5A623; /* Warning Amber */
+  --status-pending:   #64748B; /* Pending Slate */
+  --status-failed:    #EF4444; /* Error Crimson */
+
+  /* Defaults for legacy/existing classes */
+  --bg-base:         #FFFFFF;
+  --bg-surface:      #F8FAFC;
+  --background:      #FFFFFF;
+  --surface:         #FFFFFF;
+  --foreground:      #0F172A;
+  --muted:           #475569;
+  --border:          #E2E8F0;
+
+  /* Accent Hierarchy for Compatibility */
+  --amber-300:       #FFC66B;
+  --amber-400:       #F5A623;
+  --amber-500:       #D97706;
+  --amber-600:       #B45309;
+
+  /* Brand backward compatibility */
+  --navy-950:        #050505;
+  --navy-900:        #101010;
+  --navy-800:        #151515;
+  --navy-700:        #262626;
+  --navy-600:        #404040;
+  --navy-500:        #737373;
+  --navy-100:        #E5E5E5;
+  --navy-50:         #F5F5F5;
+}
+
+/* ── Base Layer ────────────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+  }
+
+  /* Accessible focus ring: visible for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  /* Smooth text selection */
+  ::selection {
+    background-color: #DBEAFE;
+    color: #1E3A8A;
+  }
+}
+
+/* ── Clean Light Surfaces & Cards ────────────────────────────── */
+.card-clean {
+  background-color: #FFFFFF;
+  border: 1px solid #E5EAF1;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-clean:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-interactive {
+  background-color: #FFFFFF;
+  border: 1px solid #E5EAF1;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-interactive:hover {
+  border-color: #93C5FD;
+  box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+.bg-subtle-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(229, 234, 241, 0.6) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(229, 234, 241, 0.6) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(203, 213, 225, 0.7) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Waveform & Audio Animations ──────────────────────────────── */
+@keyframes barWave {
+  0%, 100% { height: 6px; }
+  50% { height: 28px; }
+}
+
+.animate-wave-bar {
+  animation: barWave 1.2s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+/* ── Respect Reduced Motion ──────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ── Utility: Clean Scrollbar ────────────────────────────────── */
+.scrollbar-thin::-webkit-scrollbar        { width: 6px; height: 6px; }
+.scrollbar-thin::-webkit-scrollbar-track  { background: #F1F5F9; }
+.scrollbar-thin::-webkit-scrollbar-thumb  { background: #CBD5E1; border-radius: 99px; }
+.scrollbar-thin::-webkit-scrollbar-thumb:hover { background: #94A3B8; }

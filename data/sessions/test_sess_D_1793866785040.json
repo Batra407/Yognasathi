@@ -1,0 +1,16 @@
+{
+  "sessionId": "test_sess_D_1793866785040",
+  "profile": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "Actually, I am 48 years old",
+      "timestamp": "2026-11-05T08:19:45.091Z",
+      "language": "en",
+      "intent": "ASK_CORRECTION"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793866785091,
+  "ttlMinutes": 1440
+}

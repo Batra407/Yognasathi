@@ -1,0 +1,26 @@
+{
+  "sessionId": "test_sess_A_1793873373713",
+  "profile": {
+    "age": 45,
+    "state": "Punjab",
+    "occupation": "farmer"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I am a farmer, 45 years old, from Punjab.",
+      "timestamp": "2026-11-05T10:09:33.738Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you own agricultural land? How many acres of land do you have?",
+      "timestamp": "2026-11-05T10:09:33.998Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793873373998,
+  "ttlMinutes": 1440
+}

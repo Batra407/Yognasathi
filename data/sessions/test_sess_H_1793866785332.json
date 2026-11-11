@@ -1,0 +1,20 @@
+{
+  "sessionId": "test_sess_H_1793866785332",
+  "profile": {
+    "age": 32,
+    "state": "Punjab",
+    "occupation": "farmer",
+    "landHolding": 4
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Which crops do you grow on your land? (e.g. wheat, paddy, cotton, mustard)",
+      "timestamp": "2026-11-05T08:19:45.352Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793866785749,
+  "ttlMinutes": 1440
+}

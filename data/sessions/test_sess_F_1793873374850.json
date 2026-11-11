@@ -1,0 +1,26 @@
+{
+  "sessionId": "test_sess_F_1793873374850",
+  "profile": {
+    "occupation": "farmer",
+    "state": "Punjab",
+    "age": 45
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "ਮੈਂ ਪੰਜਾਬ ਦਾ ਕਿਸਾਨ ਹਾਂ ਅਤੇ ਮੇਰੀ ਉਮਰ 45 ਸਾਲ ਹੈ",
+      "timestamp": "2026-11-05T10:09:34.855Z",
+      "language": "pa",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਖੇਤੀਬਾੜੀ ਜ਼ਮੀਨ ਹੈ? ਤੁਹਾਡੇ ਕੋਲ ਕਿੰਨੀ ਏਕੜ ਜ਼ਮੀਨ ਹੈ?",
+      "timestamp": "2026-11-05T10:09:34.889Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793873374889,
+  "ttlMinutes": 1440
+}

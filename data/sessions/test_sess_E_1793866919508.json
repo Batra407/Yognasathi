@@ -1,0 +1,26 @@
+{
+  "sessionId": "test_sess_E_1793866919508",
+  "profile": {
+    "age": 45,
+    "state": "Punjab",
+    "occupation": "farmer"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "मैं पंजाब का किसान हूँ मेरी उम्र 45 साल है",
+      "timestamp": "2026-11-05T08:21:59.523Z",
+      "language": "hi",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "assistant",
+      "content": "क्या आपके पास कृषि भूमि है? आपके पास कितने एकड़ जमीन है?",
+      "timestamp": "2026-11-05T08:21:59.537Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793866919537,
+  "ttlMinutes": 1440
+}

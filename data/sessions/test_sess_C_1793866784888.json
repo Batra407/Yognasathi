@@ -1,0 +1,32 @@
+{
+  "sessionId": "test_sess_C_1793866784888",
+  "profile": {
+    "occupation": "farmer",
+    "age": 45
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I live in Punjab",
+      "timestamp": "2026-11-05T08:19:45.018Z",
+      "language": "en",
+      "intent": "PROVIDE_PROFILE"
+    },
+    {
+      "role": "user",
+      "content": "What schemes are available for me?",
+      "timestamp": "2026-11-05T08:19:45.033Z",
+      "language": "en",
+      "intent": "FIND_SCHEMES"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you own agricultural land? How many acres of land do you have?",
+      "timestamp": "2026-11-05T08:19:45.058Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793866785058,
+  "ttlMinutes": 1440
+}

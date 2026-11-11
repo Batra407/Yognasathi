@@ -1,0 +1,332 @@
+{
+  "status": "TRAINED",
+  "timestamp": "2026-11-05T15:30:00Z",
+  "selected_model": "Multinomial Naive Bayes",
+  "total_dataset_size": 747,
+  "train_samples": 522,
+  "validation_samples": 112,
+  "test_samples": 113,
+  "intent_classes_count": 12,
+  "intent_classes": [
+    "AGRICULTURE_ASSISTANCE",
+    "BUSINESS_ENTREPRENEURSHIP",
+    "DISABILITY_ASSISTANCE",
+    "EDUCATION_SCHOLARSHIP",
+    "EMPLOYMENT_OPPORTUNITIES",
+    "FINANCIAL_ASSISTANCE",
+    "GENERAL_WELFARE",
+    "HEALTHCARE_ASSISTANCE",
+    "HOUSING_SHELTER",
+    "PENSION_ASSISTANCE",
+    "SKILL_DEVELOPMENT",
+    "WOMEN_EMPOWERMENT"
+  ],
+  "supported_languages": [
+    "en",
+    "hi",
+    "pa",
+    "hinglish"
+  ],
+  "metrics": {
+    "accuracy": 0.9558,
+    "macro_precision": 0.9617,
+    "macro_recall": 0.9528,
+    "macro_f1": 0.9536,
+    "weighted_f1": 0.9553
+  },
+  "per_class": {
+    "AGRICULTURE_ASSISTANCE": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 15.0
+    },
+    "BUSINESS_ENTREPRENEURSHIP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "DISABILITY_ASSISTANCE": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "EDUCATION_SCHOLARSHIP": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9655172413793104,
+      "support": 14.0
+    },
+    "EMPLOYMENT_OPPORTUNITIES": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "FINANCIAL_ASSISTANCE": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 8.0
+    },
+    "GENERAL_WELFARE": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "HEALTHCARE_ASSISTANCE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "HOUSING_SHELTER": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1-score": 0.9,
+      "support": 9.0
+    },
+    "PENSION_ASSISTANCE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "SKILL_DEVELOPMENT": {
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1-score": 0.9473684210526315,
+      "support": 9.0
+    },
+    "WOMEN_EMPOWERMENT": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "accuracy": 0.9557522123893806,
+    "macro avg": {
+      "precision": 0.9617003367003368,
+      "recall": 0.9527777777777778,
+      "f1-score": 0.9536157415174177,
+      "support": 113.0
+    },
+    "weighted avg": {
+      "precision": 0.9614284437293286,
+      "recall": 0.9557522123893806,
+      "f1-score": 0.9552761393332369,
+      "support": 113.0
+    }
+  },
+  "per_language": {
+    "en": {
+      "samples": 31,
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "hi": {
+      "samples": 35,
+      "accuracy": 0.9714,
+      "f1_score": 0.9695
+    },
+    "hinglish": {
+      "samples": 17,
+      "accuracy": 0.8824,
+      "f1_score": 0.8824
+    },
+    "pa": {
+      "samples": 30,
+      "accuracy": 0.9333,
+      "f1_score": 0.9209
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "AGRICULTURE_ASSISTANCE",
+      "BUSINESS_ENTREPRENEURSHIP",
+      "DISABILITY_ASSISTANCE",
+      "EDUCATION_SCHOLARSHIP",
+      "EMPLOYMENT_OPPORTUNITIES",
+      "FINANCIAL_ASSISTANCE",
+      "GENERAL_WELFARE",
+      "HEALTHCARE_ASSISTANCE",
+      "HOUSING_SHELTER",
+      "PENSION_ASSISTANCE",
+      "SKILL_DEVELOPMENT",
+      "WOMEN_EMPOWERMENT"
+    ],
+    "matrix": [
+      [
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        7
+      ]
+    ]
+  }
+}

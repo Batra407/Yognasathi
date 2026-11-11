@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-10-27T17:44:53.446Z",
+  "state": "Haryana",
+  "totalRecordsEvaluated": 15,
+  "verifiedRecords": 15,
+  "rejectedOrFlaggedRecords": 0,
+  "validationRate": "100.0%",
+  "unverifiedUrls": 0,
+  "missingFieldIssues": 0,
+  "complianceStatus": "PASSED_OFFICIAL_CRITERIA",
+  "auditLog": [
+    {
+      "sourceId": "hry_oap",
+      "schemeName": "Old Age Samman Allowance - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://socialjusticehry.gov.in/"
+    },
+    {
+      "sourceId": "hry_divyang",
+      "schemeName": "Divyangjan Pension Scheme - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://socialjusticehry.gov.in/"
+    },
+    {
+      "sourceId": "hry_widow",
+      "schemeName": "Widow and Destitute Women Pension Scheme - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://socialjusticehry.gov.in/"
+    },
+    {
+      "sourceId": "hry_bby",
+      "schemeName": "Bhavantar Bharpayee Yojana (BBY) - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://fasal.haryana.gov.in/"
+    },
+    {
+      "sourceId": "hry_mmpsy",
+      "schemeName": "Mukhyamantri Parivar Samriddhi Yojana (MMPSY) - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://cm-psy.haryana.gov.in/"
+    },
+    {
+      "sourceId": "hry_mpmv",
+      "schemeName": "Mera Pani Meri Virasat Scheme - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://fasal.haryana.gov.in/"
+    },
+    {
+      "sourceId": "hry_chirayu",
+      "schemeName": "Chirayu Haryana (Ayushman Bharat MMPSY)",
+      "status": "VERIFIED",
+      "officialPortal": "https://chirayu.haryana.gov.in/"
+    },
+    {
+      "sourceId": "hry_vivah",
+      "schemeName": "Mukhyamantri Vivah Shagun Yojana - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://saralharyana.gov.in/"
+    },
+    {
+      "sourceId": "hry_scholarship_sc",
+      "schemeName": "Post Matric Scholarship for SC Students - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://harchhatravritti.highereduhry.ac.in/"
+    },
+    {
+      "sourceId": "hry_solar_pump",
+      "schemeName": "Solar Water Pumping Scheme (PM-KUSUM) - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://hareda.gov.in/"
+    },
+    {
+      "sourceId": "hry_sports_award",
+      "schemeName": "Cash Award to Sportspersons - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://haryanasports.gov.in/"
+    },
+    {
+      "sourceId": "hry_antyodaya_utthan",
+      "schemeName": "Mukhyamantri Antyodaya Parivar Utthan Yojana (HAPUY) - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://saralharyana.gov.in/"
+    },
+    {
+      "sourceId": "hry_disabled_child",
+      "schemeName": "Financial Assistance to Disabled Children - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://socialjusticehry.gov.in/"
+    },
+    {
+      "sourceId": "hry_medhavi_chhatra",
+      "schemeName": "Dr. B.R. Ambedkar Medhavi Chhatravriti Yojana - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://saralharyana.gov.in/"
+    },
+    {
+      "sourceId": "hry_matrushakti",
+      "schemeName": "Mukhyamantri Matrushakti Udyamita Yojana - Haryana",
+      "status": "VERIFIED",
+      "officialPortal": "https://saralharyana.gov.in/"
+    }
+  ]
+}

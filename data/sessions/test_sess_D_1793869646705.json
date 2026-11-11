@@ -1,0 +1,38 @@
+{
+  "sessionId": "test_sess_D_1793869646705",
+  "profile": {
+    "age": 48,
+    "state": "Punjab"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "intent": "PROVIDE_PROFILE",
+      "content": "I am 45 years old and live in Punjab",
+      "language": "en",
+      "timestamp": "2026-11-05T09:07:26.705Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your profile (Punjab), here are relevant verified government schemes:\n1. **Ayushman Bharat Mukh Mantri Sehat Bima Yojana (AB-MMSBY)** — ✓ Eligible (Department of Health and Family Welfare)\n   🔗 https://sha.punjab.gov.in/\n2. **Bed & Breakfast / Homestay Scheme - Punjab** — ✓ Eligible (Department of Tourism & Cultural Affairs)\n   🔗 https://punjabtourism.punjab.gov.in/\n3. **Dependent Children Pension Scheme - Punjab** — ✓ Eligible (Department of Social Security and Development of Women and Children)\n   🔗 https://eservices.punjab.gov.in/\n\n📋 Please verify all requirements on the official government portal before applying.",
+      "timestamp": "2026-11-05T09:07:26.723Z",
+      "replySource": "deterministic_reasoning"
+    },
+    {
+      "role": "user",
+      "intent": "ASK_CORRECTION",
+      "content": "Actually, I am 48 years old",
+      "language": "en",
+      "timestamp": "2026-11-05T09:07:26.729Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your profile (Punjab), here are relevant verified government schemes:\n1. **Ayushman Bharat Mukh Mantri Sehat Bima Yojana (AB-MMSBY)** — ✓ Eligible (Department of Health and Family Welfare)\n   🔗 https://sha.punjab.gov.in/\n2. **Bed & Breakfast / Homestay Scheme - Punjab** — ✓ Eligible (Department of Tourism & Cultural Affairs)\n   🔗 https://punjabtourism.punjab.gov.in/\n3. **Dependent Children Pension Scheme - Punjab** — ✓ Eligible (Department of Social Security and Development of Women and Children)\n   🔗 https://eservices.punjab.gov.in/\n\n📋 Please verify all requirements on the official government portal before applying.",
+      "timestamp": "2026-11-05T09:07:26.757Z",
+      "replySource": "deterministic_reasoning"
+    }
+  ],
+  "consentGiven": false,
+  "lastActive": 1793869646705,
+  "ttlMinutes": 1440
+}
