@@ -48,7 +48,7 @@ jobs:
           pip install scikit-learn joblib fastapi pydantic uvicorn
 
       - name: Install Node Dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
 
       - name: Generate Prisma Client
         run: npx prisma generate
