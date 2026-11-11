@@ -41,6 +41,7 @@ yarn-error.log*
 # scratch and AI assistant temp dirs
 scratch/
 .gemini/
+data/backup/
 
 # vercel
 .vercel
