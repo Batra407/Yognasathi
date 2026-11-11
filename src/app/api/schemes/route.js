@@ -43,10 +43,29 @@ async function GET(request) {
     }
 
     if (search) {
-      where.schemeName = {
-        contains: search,
-        mode: 'insensitive'
-      };
+      const searchLower = search.toLowerCase();
+      if (searchLower === 'farmer' || searchLower === 'agriculture' || searchLower === 'kisan') {
+        where.OR = [
+          { schemeName: { contains: 'Farm', mode: 'insensitive' } },
+          { schemeName: { contains: 'Kisan', mode: 'insensitive' } },
+          { schemeName: { contains: 'Bhavantar', mode: 'insensitive' } },
+          { schemeName: { contains: 'Mera Pani', mode: 'insensitive' } },
+          { schemeName: { contains: 'Solar Water', mode: 'insensitive' } },
+          { schemeName: { contains: 'Agriculture', mode: 'insensitive' } }
+        ];
+      } else if (searchLower === 'scholarship') {
+        where.OR = [
+          { schemeName: { contains: 'Scholarship', mode: 'insensitive' } },
+          { schemeName: { contains: 'Chhatravriti', mode: 'insensitive' } },
+          { schemeName: { contains: 'Student', mode: 'insensitive' } },
+          { schemeName: { contains: 'Medhavi', mode: 'insensitive' } }
+        ];
+      } else {
+        where.schemeName = {
+          contains: search,
+          mode: 'insensitive'
+        };
+      }
     }
 
     if (department) {
@@ -57,10 +76,18 @@ async function GET(request) {
     }
 
     if (state) {
-      where.state = {
-        contains: state,
-        mode: 'insensitive'
-      };
+      if (state.toLowerCase() === 'central') {
+        where.OR = [
+          { state: null },
+          { state: { contains: 'Central', mode: 'insensitive' } },
+          { schemeLevel: { contains: 'Central', mode: 'insensitive' } }
+        ];
+      } else {
+        where.state = {
+          contains: state,
+          mode: 'insensitive'
+        };
+      }
     }
 
     // Execute query & count in parallel
