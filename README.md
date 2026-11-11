@@ -303,8 +303,8 @@ nextjsproject/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/yojanasathi.git
-cd yojanasathi
+git clone https://github.com/Batra407/Yognasathi.git
+cd Yognasathi
 
 # 2. Install Node.js dependencies
 npm install
@@ -416,9 +416,9 @@ python tests/test_ml_realistic_queries.py
 
 ## 👨‍💻 Author & Acknowledgments
 
-**Lead Developer & Architect**: [Your Name](https://github.com/your-username)  
-- **GitHub**: [@your-username](https://github.com/your-username)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+**Lead Developer & Architect**: [Ansh Batra](https://github.com/Batra407)  
+- **GitHub**: [@Batra407](https://github.com/Batra407)
+- **Repository**: [github.com/Batra407/Yognasathi](https://github.com/Batra407/Yognasathi)
 
 ### Acknowledgments & Data Sources
 - **Data Source**: Official citizen welfare schemes curated from [myScheme.gov.in](https://www.myscheme.gov.in/) and national portal datasets.
