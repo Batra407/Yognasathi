@@ -6,7 +6,8 @@ async function seedEligibilityRules() {
 
   const rulesData = [
     {
-      schemeId: '27afc906-eca9-4b92-9c42-11662c11d83d',
+      schemeNo: 390.0,
+      schemeName: 'Pradhan Mantri Shram Yogi Maandhan',
       ageMin: 18,
       ageMax: 40,
       gender: null,
@@ -28,7 +29,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '28bc123a-8d3a-4ca9-9c3c-a03fb89e586e',
+      schemeNo: 287.0,
+      schemeName: 'Government Co-contribution to Atal Pension Yojana',
       ageMin: 18,
       ageMax: 40,
       gender: null,
@@ -50,7 +52,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: 'b7c169d9-f34b-4616-8a03-975729f96201',
+      schemeNo: 1.0,
+      schemeName: 'Crop Insurance Scheme',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -72,7 +75,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '4ac121d0-d8ba-47d8-9057-d4ba1193d2af',
+      schemeNo: 211.0,
+      schemeName: 'National Means cum Merit Scholarship Scheme',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -94,7 +98,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '1a90e9d1-e608-4def-b419-9416cb542916',
+      schemeNo: 571.0,
+      schemeName: 'Scholarships for Higher Education for Young Achievers Scheme (SHREYAS) for OBCs and EBCs',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -116,7 +121,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: 'c95663da-8b7c-4ea0-aa12-df45c323ccc2',
+      schemeNo: 580.0,
+      schemeName: 'Scholarship for Students with Disabilities',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -138,7 +144,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '4bf0a262-5187-4e84-9fb1-f1e7b1a345b8',
+      schemeNo: 410.0,
+      schemeName: 'Prime Minister Employment Generation Programme (PMEGP)',
       ageMin: 18,
       ageMax: null,
       gender: null,
@@ -160,7 +167,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '709d448b-be1f-4a77-b74b-9122983d0596',
+      schemeNo: 10.0,
+      schemeName: 'Agriculture Infrastructure Fund (AIF)',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -182,7 +190,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '1897bafb-b971-4741-a4be-94bf739d32a6',
+      schemeNo: 595.0,
+      schemeName: 'National Handloom Development Programme',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -204,7 +213,8 @@ async function seedEligibilityRules() {
       isVerified: true
     },
     {
-      schemeId: '12c8a931-c984-4eeb-b6f5-51ee6eb08536',
+      schemeNo: 325.0,
+      schemeName: 'Pradhan Mantri Ayushman Bharat Health Infrastructure Mission (PMABHIM) (Health)',
       ageMin: null,
       ageMax: null,
       gender: null,
@@ -229,30 +239,44 @@ async function seedEligibilityRules() {
 
   let seededCount = 0;
 
-  for (const rule of rulesData) {
-    // Verify Dataset A scheme exists
-    const scheme = await prisma.scheme.findUnique({
-      where: { id: rule.schemeId }
-    });
+  for (const ruleItem of rulesData) {
+    let scheme = null;
+    
+    // 1. First attempt to match by schemeNo
+    if (ruleItem.schemeNo !== undefined) {
+      scheme = await prisma.scheme.findFirst({
+        where: { schemeNo: ruleItem.schemeNo }
+      });
+    }
+
+    // 2. Second attempt: match by schemeName
+    if (!scheme && ruleItem.schemeName) {
+      scheme = await prisma.scheme.findFirst({
+        where: { schemeName: ruleItem.schemeName }
+      });
+    }
 
     if (!scheme) {
-      console.error(`ERROR: Scheme ID ${rule.schemeId} not found in Dataset A!`);
+      console.error(`ERROR: Scheme "${ruleItem.schemeName}" (No: ${ruleItem.schemeNo}) not found in Dataset A!`);
       continue;
     }
 
+    const { schemeNo, schemeName, ...ruleFields } = ruleItem;
+    const rulePayload = { ...ruleFields, schemeId: scheme.id };
+
     // Upsert rule into GovernmentSchemeEligibilityRule
     const existingRule = await prisma.governmentSchemeEligibilityRule.findFirst({
-      where: { schemeId: rule.schemeId }
+      where: { schemeId: scheme.id }
     });
 
     if (existingRule) {
       await prisma.governmentSchemeEligibilityRule.update({
         where: { id: existingRule.id },
-        data: rule
+        data: rulePayload
       });
     } else {
       await prisma.governmentSchemeEligibilityRule.create({
-        data: rule
+        data: rulePayload
       });
     }
 
@@ -264,7 +288,11 @@ async function seedEligibilityRules() {
   await prisma.$disconnect();
 }
 
-seedEligibilityRules().catch(err => {
-  console.error('Seeding failed:', err);
-  process.exit(1);
-});
+if (require.main === module) {
+  seedEligibilityRules().catch(err => {
+    console.error('Seeding failed:', err);
+    process.exit(1);
+  });
+}
+
+module.exports = { seedEligibilityRules };

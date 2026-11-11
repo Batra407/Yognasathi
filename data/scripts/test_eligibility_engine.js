@@ -35,11 +35,17 @@ async function runEngineTests() {
 
     console.log(`Database Integrity Check: ${schemeCount} Dataset A Schemes, ${deptCount} Departments`);
 
-    // Retrieve verified PM SYM scheme (ID: 27afc906-eca9-4b92-9c42-11662c11d83d)
-    const pmSymScheme = await prisma.scheme.findUnique({
-      where: { id: '27afc906-eca9-4b92-9c42-11662c11d83d' },
+    // Retrieve verified PM SYM scheme dynamically
+    let pmSymScheme = await prisma.scheme.findFirst({
+      where: { schemeNo: 390.0 },
       include: { eligibilityRules: true }
     });
+    if (!pmSymScheme) {
+      pmSymScheme = await prisma.scheme.findFirst({
+        where: { schemeName: { contains: 'Shram Yogi', mode: 'insensitive' } },
+        include: { eligibilityRules: true }
+      });
+    }
 
     const pmSymRules = (pmSymScheme?.eligibilityRules || []).filter(r => r.isVerified);
 
